@@ -5,6 +5,7 @@ and can be checked or re-run by anyone.
 
 | Project | What it is | Archive |
 |---|---|---|
+| [laser-chaos](https://github.com/Hashirama1337s/laser-chaos) | Computer-assisted proof that the loss-modulated class-B laser (the CO2-laser chaos model) has a chaotic set of motions; at the published parameters the long-run behaviour is a period-16 rhythm, so the chaos is real but hidden | [doi:10.5281/zenodo.23422903](https://doi.org/10.5281/zenodo.23422903) |
 | [certified-qubit-peel](https://github.com/Hashirama1337s/certified-qubit-peel) | A published method that builds qubits out of a list of energies, re-run with its authors' own code and checked against certified best splits: where its search misses, by how much, and what survives | [doi:10.5281/zenodo.23293218](https://doi.org/10.5281/zenodo.23293218) |
 | [moment-map-local-maxima](https://github.com/Hashirama1337s/moment-map-local-maxima) | Which ways of splitting a quantum system into parts make the parts interact least: an exact classification (theorem with complete proofs), extended to mutual information, explaining the McConnell-Jennings counts | [doi:10.5281/zenodo.23275890](https://doi.org/10.5281/zenodo.23275890) |
 | [ueda-chaos](https://github.com/Hashirama1337s/ueda-chaos) | Computer-assisted proof that Ueda's forced oscillator x'' + 0.05x' + x^3 = 7.5 cos t is chaotic | [doi:10.5281/zenodo.23172757](https://doi.org/10.5281/zenodo.23172757) |
