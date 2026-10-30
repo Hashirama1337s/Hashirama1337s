@@ -5,6 +5,7 @@ and can be checked or re-run by anyone.
 
 | Project | What it is | Archive |
 |---|---|---|
+| [ramanujan-septic-galois](https://github.com/Hashirama1337s/ramanujan-septic-galois) | Ramanujan's lost-notebook septic identity at every odd prime: the number fields of its pieces, one rule (Euler's idoneal numbers) for when they are cyclotomic at every odd level, units and a Stark-unit recipe | [doi:10.5281/zenodo.23790016](https://doi.org/10.5281/zenodo.23790016) |
 | [laser-chaos](https://github.com/Hashirama1337s/laser-chaos) | Computer-assisted proof that the loss-modulated class-B laser (the CO2-laser chaos model) has a chaotic set of motions; at the published parameters the long-run behaviour is a period-16 rhythm, so the chaos is real but hidden | [doi:10.5281/zenodo.23422903](https://doi.org/10.5281/zenodo.23422903) |
 | [certified-qubit-peel](https://github.com/Hashirama1337s/certified-qubit-peel) | A published method that builds qubits out of a list of energies, re-run with its authors' own code and checked against certified best splits: where its search misses, by how much, and what survives | [doi:10.5281/zenodo.23293218](https://doi.org/10.5281/zenodo.23293218) |
 | [moment-map-local-maxima](https://github.com/Hashirama1337s/moment-map-local-maxima) | Which ways of splitting a quantum system into parts make the parts interact least: an exact classification (theorem with complete proofs), extended to mutual information, explaining the McConnell-Jennings counts | [doi:10.5281/zenodo.23275890](https://doi.org/10.5281/zenodo.23275890) |
