@@ -1,10 +1,12 @@
 # Moki & Julio
 
 Independent computational research. Every project ships its code and data, says plainly what was and was not shown,
-and can be checked or re-run by anyone.
+and can be checked or re-run by anyone. Newest first.
 
 | Project | What it is | Archive |
 |---|---|---|
+| [airy-edge-hydrodynamics](https://github.com/Hashirama1337s/airy-edge-hydrodynamics) | Where fluid predictions for a holographic plasma stop working: the edge approaches a fixed point as d^(-1/3) with an Airy-function coefficient, predicted blind at d = 8192-32768 and checked to be the nearest obstacle at d = 512, 1024 and 8192 | [doi:10.5281/zenodo.23942230](https://doi.org/10.5281/zenodo.23942230) |
+| [large-d-gregory-laflamme](https://github.com/Hashirama1337s/large-d-gregory-laflamme) | The point where a black string cracks, as an exact large-dimension series to order 1/n^12 (multiple zeta values incl. zeta(5,3), zeta(3,5,3)), resummed to predict AdS plasma screening masses to 15+ digits | [doi:10.5281/zenodo.23940227](https://doi.org/10.5281/zenodo.23940227) |
 | [debruijn-newman-degree-two](https://github.com/Hashirama1337s/debruijn-newman-degree-two) | Proven de Bruijn-Newman bounds below 1/2 in degree 2 (eta(z)eta(23z): 0.449938; none earlier found), and a product lemma giving such bounds for Dedekind zeta functions | [doi:10.5281/zenodo.23794434](https://doi.org/10.5281/zenodo.23794434) |
 | [ramanujan-septic-galois](https://github.com/Hashirama1337s/ramanujan-septic-galois) | Ramanujan's lost-notebook septic identity at every odd prime: the number fields of its pieces, one rule (Euler's idoneal numbers) for when they are cyclotomic at every odd level, units and a Stark-unit recipe | [doi:10.5281/zenodo.23790016](https://doi.org/10.5281/zenodo.23790016) |
 | [laser-chaos](https://github.com/Hashirama1337s/laser-chaos) | Computer-assisted proof that the loss-modulated class-B laser (the CO2-laser chaos model) has a chaotic set of motions; at the published parameters the long-run behaviour is a period-16 rhythm, so the chaos is real but hidden | [doi:10.5281/zenodo.23422903](https://doi.org/10.5281/zenodo.23422903) |
