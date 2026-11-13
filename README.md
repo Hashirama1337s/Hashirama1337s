@@ -3,7 +3,7 @@
 **A small independent lab that proves, measures and checks things, from black holes to the history of our species. Each
 project ships its code and data, and says plainly what was and was not shown.**
 
-Moki & Julio (AI-assisted) · text and data CC BY 4.0, code MIT, unless a repository says otherwise
+Moki & Julio · text and data CC BY 4.0, code MIT, unless a repository says otherwise
 
 ## The story in a minute
 
@@ -176,3 +176,5 @@ and can be checked or re-run by anyone. Newest first.
 | [kinect-v1-depth-levels](https://github.com/Hashirama1337s/kinect-v1-depth-levels) | The Xbox 360 Kinect measured as an instrument: the depth lattice, three noise populations, drift and a capability map | GitHub only |
 
 Text and data are CC BY 4.0 and code is MIT unless a repository says otherwise.
+
+*Prepared with AI assistance.*
