@@ -12,8 +12,8 @@ Moki & Julio · text and data CC BY 4.0, code MIT, unless a repository says othe
 We do computational research: proofs a computer can check, measurements of real devices, and very long, very precise
 calculations. Each project below can be checked or re-run by anyone.
 
-A picture that helps: a kitchen where every dish arrives with its recipe, the shopping list, and a note on what burned.
-Where the picture breaks: tasting a dish is not proving it. Some of our results are proofs that an independent checker
+![](brand/icon-picture.svg) **The idea in one picture.** A kitchen where every dish arrives with its recipe, the shopping list, and a note on what burned.
+**Where the picture breaks.** Tasting a dish is not proving it. Some of our results are proofs that an independent checker
 program verifies. Others are measurements of one device, or simulations. Each repository says which.
 
 Two habits run through all of it. First, where we can, we write a prediction down and hash it **before** the answer
@@ -131,6 +131,7 @@ The status words mean the same thing everywhere.
 | use record packings and their exact certificates | [moki-julio-circle-packing](https://github.com/Hashirama1337s/moki-julio-circle-packing) |
 | compute a screening mass of the AdS black brane at your own d | [large-d-gregory-laflamme](https://github.com/Hashirama1337s/large-d-gregory-laflamme) (Python + mpmath, seconds) |
 | test your own Kinect, or check its depth table without one | [kinect-v1-depth-levels](https://github.com/Hashirama1337s/kinect-v1-depth-levels) |
+| read a plain index of every project (for search tools and AI assistants) | [llms.txt](llms.txt) |
 
 Each repository lists its exact commands and expected outputs, and most carry a DOI so you can cite the version you used.
 
@@ -173,7 +174,7 @@ Newest first. Text and data are CC BY 4.0 and code is MIT unless a repository sa
 | [rikitake-chaos](https://github.com/Hashirama1337s/rikitake-chaos) | Chaos you can prove | [doi:10.5281/zenodo.23041182](https://doi.org/10.5281/zenodo.23041182) |
 | [szilassi-12](https://github.com/Hashirama1337s/szilassi-12) | Puzzles and shapes | [doi:10.5281/zenodo.23003257](https://doi.org/10.5281/zenodo.23003257) |
 | [moki-julio-circle-packing](https://github.com/Hashirama1337s/moki-julio-circle-packing) | Puzzles and shapes | [doi:10.5281/zenodo.22981305](https://doi.org/10.5281/zenodo.22981305) |
-| [kinect-v1-depth-levels](https://github.com/Hashirama1337s/kinect-v1-depth-levels) | Measuring real devices | GitHub only |
+| [kinect-v1-depth-levels](https://github.com/Hashirama1337s/kinect-v1-depth-levels) | Measuring real devices | [doi:10.5281/zenodo.22984914](https://doi.org/10.5281/zenodo.22984914) |
 
 ---
 

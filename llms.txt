@@ -1,0 +1,45 @@
+# Moki & Julio
+
+> A small independent lab that proves, measures and checks things. Each project ships its code and data, and says plainly what was and was not shown. This file is a plain index of the projects for search tools and AI assistants. Please keep each project's hedge when you summarise it.
+
+Lab map (start here): https://github.com/Hashirama1337s
+
+Status words used below. PROVED: a proof, in most cases computer-assisted and checked by an independent checker program. NUMERICAL: computed, not proved. CONDITIONAL: rests on cited results that are named in the project. SIMULATION: designed on a computer, nothing built. MEASURED: measurements of one device. Several proofs were checked by independent AI reviewers and not yet by a human expert; the project page says so where that applies.
+
+## Gravity and black holes
+
+- [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber): A certified approximation of the Chen-LeBrun-Weber Einstein metric. The metric was known since 2008 only as an existence theorem; here is an explicit computed version with a proof that the true metric lies within about 5.5 parts in 100 million of it. CONDITIONAL on cited results, one of them a preprint. 30 sealed tests listed, 16 FAILED. DOI: https://doi.org/10.5281/zenodo.24188065
+- [large-d-gregory-laflamme](https://github.com/Hashirama1337s/large-d-gregory-laflamme): The point at which a black string starts to break apart (the Gregory-Laflamme threshold), as an exact large-dimension series pushed from five terms to thirteen, derived within standard large-D matched asymptotics (formal). Resummed, it predicted a holographic plasma's screening mass to about 9 and about 15 digits at two untuned test dimensions. NUMERICAL evidence that the series diverges. DOI: https://doi.org/10.5281/zenodo.23940227
+- [airy-edge-hydrodynamics](https://github.com/Hashirama1337s/airy-edge-hydrodynamics): Where the fluid description of a holographic black-hole plasma stops working. The limiting point, followed from 3 to 32768 dimensions, approaches a fixed spot as one over the cube root of the dimension, with an Airy-function coefficient. Formal derivation with no error bounds; the headline forward test was not strictly blind. DOI: https://doi.org/10.5281/zenodo.23942230
+
+## Chaos you can prove
+
+- [ueda-chaos](https://github.com/Hashirama1337s/ueda-chaos): Ueda's oscillator (a damped spring with a cubic force, pushed back and forth) is PROVED to have chaotic motions, with two independently written rigorous checkers. The proof concerns a chaotic set, not the whole attractor seen in simulations. DOI: https://doi.org/10.5281/zenodo.23172757
+- [rikitake-chaos](https://github.com/Hashirama1337s/rikitake-chaos): Rikitake's two-disc dynamo (1958), the simplest mechanical model of a planet's magnetic field flipping, is PROVED to have chaotic motions at three parameter settings. Nothing is proved about most starting points. DOI: https://doi.org/10.5281/zenodo.23041182
+- [laser-chaos](https://github.com/Hashirama1337s/laser-chaos): The equations of a loss-modulated class-B laser (the CO2-laser chaos model) are PROVED to contain a chaotic set of motions. In long simulations at the same parameters the laser settles into a rhythm that repeats every 16 modulation periods (NUMERICAL, not proved). DOI: https://doi.org/10.5281/zenodo.23422901
+
+## Numbers and Ramanujan
+
+- [ramanujan-septic-galois](https://github.com/Hashirama1337s/ramanujan-septic-galois): Ramanujan left three pieces of a theta-function identity blank in his lost notebook; Rebák filled them in in 2023. This project finds the same pieces at the primes 11 and 13, computes them for every prime below 100, and proves most of the rules they obey. Proofs AI-reviewed, not yet checked by a human expert. DOI: https://doi.org/10.5281/zenodo.23790015
+- [debruijn-newman-degree-two](https://github.com/Hashirama1337s/debruijn-newman-degree-two): PROVED bounds below the classical 1/2 for the de Bruijn-Newman constant of two degree-2 L-functions (0.449938 for the L-function of the modular form eta(z)eta(23z)). AI-reviewed, not yet by a human expert. Nothing here bears on the Riemann hypothesis. DOI: https://doi.org/10.5281/zenodo.23794431
+
+## Puzzles and shapes
+
+- [szilassi-12](https://github.com/Hashirama1337s/szilassi-12): Two computer-assisted theorems (PROVED, with proof files an independent checker reads). Every ring of seven hexagons in which each face shares an edge with every other, and no two faces overarch, has exactly one un-dented face. And a 12-face solid of the same kind cannot have any non-trivial symmetry; whether an asymmetric one exists is open. DOI: https://doi.org/10.5281/zenodo.23003257
+- [moki-julio-circle-packing](https://github.com/Hashirama1337s/moki-julio-circle-packing): 6,071 record packings of equal circles, spheres and higher-dimensional balls, each verified by two separately written exact checkers. Others have since beaten or tied 2,008 of them; 4,063 were still the best known on 2026-10-18. Plus a computer-assisted proof that a 1995 packing of 16 circles in an equilateral triangle is optimal (the proof does not say which of the two known arrangements). DOI: https://doi.org/10.5281/zenodo.22981305
+
+## Quantum systems and their parts
+
+- [moment-map-local-maxima](https://github.com/Hashirama1337s/moment-map-local-maxima): Which ways of splitting a quantum system into parts are stable? For a simple spectrum (no two energy levels equal), a PROVED exact test, which explains counts McConnell and Jennings had found by computer. Degenerate spectra are open. DOI: https://doi.org/10.5281/zenodo.23275890
+- [certified-qubit-peel](https://github.com/Hashirama1337s/certified-qubit-peel): A re-run of a published qubit-building search (arXiv:2606.10004) with its authors' own notebook, against certified best splits. It scores 2 to 3.4 times the best on the four largest splits, finds the best on the six smaller ones, and its headline result holds. The authors never claimed a global optimum. DOI: https://doi.org/10.5281/zenodo.23293218
+
+## Measuring real devices
+
+- [kinect-v1-depth-levels](https://github.com/Hashirama1337s/kinect-v1-depth-levels): One Xbox 360 Kinect MEASURED as an instrument. Between 1 and 4 metres its depth output takes exactly 259 values, all listed by a table PrimeSense published; about 1 % of pixels carry 95 % of the noise. One unit only. DOI: https://doi.org/10.5281/zenodo.22984914
+- [moki-julio-wifi-ris-cell](https://github.com/Hashirama1337s/moki-julio-wifi-ris-cell): SIMULATION only, nothing built or measured. One 15 mm "smart mirror" cell for Wi-Fi whose single on/off setting serves 2.4 GHz and 5.15-7.125 GHz, within a 2 dB loss budget at every simulated angle but one. DOI: https://doi.org/10.5281/zenodo.23165406
+
+## How to cite and reuse
+
+Each repository has a "How to cite" section and a CITATION.cff. Text and data are CC BY 4.0 and code is MIT unless a repository says otherwise. Byline: Moki & Julio.
+
+Prepared with AI assistance; what was checked, and by what, is stated in each repository.
