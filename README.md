@@ -1,9 +1,9 @@
 # Moki & Julio
 
-**A small independent lab that proves, measures and checks things, from black holes to the history of our species. Each
-project ships its code and data, and says plainly what was and was not shown.**
+**A small independent lab that proves, measures and checks things, from black holes to prime numbers to real devices.
+Each project ships its code and data, and says plainly what was and was not shown.**
 
-![Map of the lab: seven doors, fifteen projects](brand/lab-map.svg)
+![Map of the lab: six doors, fourteen projects](brand/lab-map.svg)
 
 Moki & Julio · text and data CC BY 4.0, code MIT, unless a repository says otherwise
 
@@ -104,12 +104,6 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
   Wi-Fi: one 15 mm cell whose single 1-bit switch state serves 2.4 GHz and the full 5.15-7.125 GHz span, meeting a 2 dB loss budget at every simulated angle but one, with the strict phase target met only in part. Simulation only;
   nothing has been built or measured.
 
-### The history of our species
-
-- [**human-catalog**](https://github.com/Hashirama1337s/human-catalog) - A parts catalog for human history: drill from era
-  to span to year to part, from about 7 million years ago to 2026. 873 parts each checked against its source, 24,117
-  people, 96 unsung heroes, 46 open questions. [Open the catalog](https://hashirama1337s.github.io/human-catalog/).
-
 ## How to read any of our repositories
 
 ```mermaid
@@ -132,7 +126,6 @@ The status words mean the same thing everywhere.
 
 | If you want to... | Start here |
 |---|---|
-| explore history by clicking, no install | [the Human Catalog](https://hashirama1337s.github.io/human-catalog/) |
 | re-run a certified computation of an Einstein metric | [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) (Python + python-flint; the final check takes seconds) |
 | check a computer-assisted proof yourself | [szilassi-12](https://github.com/Hashirama1337s/szilassi-12), [ueda-chaos](https://github.com/Hashirama1337s/ueda-chaos), [rikitake-chaos](https://github.com/Hashirama1337s/rikitake-chaos), [laser-chaos](https://github.com/Hashirama1337s/laser-chaos) |
 | use record packings and their exact certificates | [moki-julio-circle-packing](https://github.com/Hashirama1337s/moki-julio-circle-packing) |
@@ -168,7 +161,6 @@ Newest first. Text and data are CC BY 4.0 and code is MIT unless a repository sa
 | Project | Door | Archive |
 |---|---|---|
 | [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) | Gravity and black holes | [doi:10.5281/zenodo.24188065](https://doi.org/10.5281/zenodo.24188065) |
-| [human-catalog](https://github.com/Hashirama1337s/human-catalog) | The history of our species | [doi:10.5281/zenodo.23977246](https://doi.org/10.5281/zenodo.23977246) |
 | [airy-edge-hydrodynamics](https://github.com/Hashirama1337s/airy-edge-hydrodynamics) | Gravity and black holes | [doi:10.5281/zenodo.23942230](https://doi.org/10.5281/zenodo.23942230) |
 | [large-d-gregory-laflamme](https://github.com/Hashirama1337s/large-d-gregory-laflamme) | Gravity and black holes | [doi:10.5281/zenodo.23940227](https://doi.org/10.5281/zenodo.23940227) |
 | [debruijn-newman-degree-two](https://github.com/Hashirama1337s/debruijn-newman-degree-two) | Numbers and Ramanujan | [doi:10.5281/zenodo.23794431](https://doi.org/10.5281/zenodo.23794431) |

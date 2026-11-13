@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="262" viewBox="0 0 860 262" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Map of the lab: seven doors, fifteen projects">
-<title>Map of the lab: seven doors, fifteen projects</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="262" viewBox="0 0 860 262" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Map of the lab: six doors, fourteen projects">
+<title>Map of the lab: six doors, fourteen projects</title>
 <rect width="860" height="262" rx="10" fill="#ffffff" stroke="#d9dbe8"/>
 <text x="20" y="34" font-size="18" font-weight="600" fill="#18192b">Moki &amp; Julio: the map of the lab</text>
-<text x="20" y="54" font-size="12" fill="#555b74">Seven doors, fifteen projects. Each ships its code and data, and says what was and was not shown.</text>
+<text x="20" y="54" font-size="12" fill="#555b74">Six doors, fourteen projects. Each ships its code and data, and says what was and was not shown.</text>
 <rect x="20" y="72" width="198" height="80" rx="8" fill="#eef0fa"/>
 <rect x="20" y="72" width="5" height="80" rx="2.5" fill="#3a3fa8"/>
 <text x="38" y="100" font-size="13.5" font-weight="600" fill="#18192b">Puzzles and shapes</text>
@@ -19,18 +19,13 @@
 <rect x="650" y="72" width="5" height="80" rx="2.5" fill="#3a3fa8"/>
 <text x="668" y="100" font-size="13.5" font-weight="600" fill="#18192b">Numbers and Ramanujan</text>
 <text x="668" y="140" font-size="11.5" fill="#555b74">2 projects</text>
-<rect x="125" y="164" width="198" height="80" rx="8" fill="#eef0fa"/>
-<rect x="125" y="164" width="5" height="80" rx="2.5" fill="#3a3fa8"/>
-<text x="143" y="192" font-size="13.5" font-weight="600" fill="#18192b">Quantum systems and</text>
-<text x="143" y="209" font-size="13.5" font-weight="600" fill="#18192b">their parts</text>
-<text x="143" y="232" font-size="11.5" fill="#555b74">2 projects</text>
-<rect x="335" y="164" width="198" height="80" rx="8" fill="#eef0fa"/>
-<rect x="335" y="164" width="5" height="80" rx="2.5" fill="#3a3fa8"/>
-<text x="353" y="192" font-size="13.5" font-weight="600" fill="#18192b">Measuring real devices</text>
-<text x="353" y="232" font-size="11.5" fill="#555b74">2 projects</text>
-<rect x="545" y="164" width="198" height="80" rx="8" fill="#eef0fa"/>
-<rect x="545" y="164" width="5" height="80" rx="2.5" fill="#3a3fa8"/>
-<text x="563" y="192" font-size="13.5" font-weight="600" fill="#18192b">The history of</text>
-<text x="563" y="209" font-size="13.5" font-weight="600" fill="#18192b">our species</text>
-<text x="563" y="232" font-size="11.5" fill="#555b74">1 project</text>
+<rect x="230" y="164" width="198" height="80" rx="8" fill="#eef0fa"/>
+<rect x="230" y="164" width="5" height="80" rx="2.5" fill="#3a3fa8"/>
+<text x="248" y="192" font-size="13.5" font-weight="600" fill="#18192b">Quantum systems and</text>
+<text x="248" y="209" font-size="13.5" font-weight="600" fill="#18192b">their parts</text>
+<text x="248" y="232" font-size="11.5" fill="#555b74">2 projects</text>
+<rect x="440" y="164" width="198" height="80" rx="8" fill="#eef0fa"/>
+<rect x="440" y="164" width="5" height="80" rx="2.5" fill="#3a3fa8"/>
+<text x="458" y="192" font-size="13.5" font-weight="600" fill="#18192b">Measuring real devices</text>
+<text x="458" y="232" font-size="11.5" fill="#555b74">2 projects</text>
 </svg>
