@@ -18,6 +18,16 @@ Two habits run through all of it. First, where we can, we write a prediction dow
 exists, and a separate seat computes the answer without seeing the prediction. Second, failures stay on the page, marked
 FAILED, next to the results that held.
 
+## Newest
+
+**[certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber)** (November 2026). The
+Chen-LeBrun-Weber space is a solution of Einstein's equations of gravity that nobody can write down as a formula; it was
+known to exist since 2008, but only as a theorem. We built an explicit computed version and proved, with every rounding
+error counted, that the true space lies within about 5 parts in 100 million of it. As a consequence, its scalar
+vibration spectrum has exactly one pitch below twice the cosmological constant. The proof is conditional on the cited
+results listed in the paper, and the scorecard lists all 30 sealed tests, including the 16 that failed.
+[doi:10.5281/zenodo.24188065](https://doi.org/10.5281/zenodo.24188065)
+
 ## The map of the lab
 
 Pick the door that draws you. Each line is one project's plain hook; the repository climbs from there.
@@ -48,6 +58,10 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
 
 ### Black holes and extra dimensions
 
+- [**certified-chen-lebrun-weber**](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) - A gravitational
+  instanton that exists only as a theorem, now located by computer: an explicit approximation, and a proof that the true
+  Einstein metric lies within about 5 parts in 100 million of it (conditional on cited results). Ships the code, the
+  certified data, and every sealed test, failures included.
 - [**large-d-gregory-laflamme**](https://github.com/Hashirama1337s/large-d-gregory-laflamme) - The exact recipe for when
   a stretched black hole (a black string) starts to break apart, pushed from five terms to thirteen. Those 13 exact terms
   plus 38 computed numerically (51 in all), summed the right way and read through a mathematical mirror, predicted how a
@@ -111,6 +125,7 @@ and stays on the page. **VOID** or **NO VERDICT**: the test could not decide. **
 | If you want to... | Start here |
 |---|---|
 | explore history by clicking, no install | [the Human Catalog](https://hashirama1337s.github.io/human-catalog/) |
+| re-run a certified existence proof for an Einstein metric | [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) (Python + python-flint; the final check takes seconds) |
 | check a computer-assisted proof yourself | [szilassi-12](https://github.com/Hashirama1337s/szilassi-12), [ueda-chaos](https://github.com/Hashirama1337s/ueda-chaos), [rikitake-chaos](https://github.com/Hashirama1337s/rikitake-chaos), [laser-chaos](https://github.com/Hashirama1337s/laser-chaos) |
 | use record packings and their exact certificates | [moki-julio-circle-packing](https://github.com/Hashirama1337s/moki-julio-circle-packing) |
 | compute a screening mass of the AdS black brane at your own d | [large-d-gregory-laflamme](https://github.com/Hashirama1337s/large-d-gregory-laflamme) (Python + mpmath, seconds) |
@@ -125,6 +140,7 @@ Each repository lists its exact commands and expected outputs, and most carry a 
 - "We found no earlier ..." is a search floor (a dated search of named sources), not a clearance.
 - Records can fall: circle-packing lists every packing others have since beaten or tied.
 - The Wi-Fi cell is a simulation study; the Kinect results are one unit, one operator.
+- certified-chen-lebrun-weber is conditional on the results it cites (listed in its paper), one of them a preprint.
 
 ## Words you will meet
 
@@ -139,6 +155,8 @@ Each repository lists its exact commands and expected outputs, and most carry a 
 - **L-function** - a function in the family of the Riemann zeta function; each has a degree (zeta itself is degree 1)
   and zeros whose positions carry number-theoretic information.
 - **Modular form** - a highly symmetric function; eta(z)eta(23z) is one, and it has its own L-function of degree 2.
+- **Einstein metric** - a shape of space that solves Einstein's equations of gravity; a **gravitational instanton** is
+  one with no time direction, used in quantum gravity.
 - **Holographic plasma** - a hot plasma modelled by a black hole with a flat horizon (an AdS black brane) in a space with
   one extra dimension.
 - **Class-B laser** - a laser described by two rate equations, one for the light intensity and one for the population
@@ -148,7 +166,7 @@ Each repository lists its exact commands and expected outputs, and most carry a 
 
 ## For specialists: the original README
 
-Kept verbatim as it stood on 2026-11-07. Where it differs from the project pages, the project pages and the map above
+Kept as it stood on 2026-11-07, with newer projects added at the top of the table. Where it differs from the project pages, the project pages and the map above
 are current: human-catalog now lists 24,117 people; circle-packing lists 4,063 of its 6,071 released records as still
 best-known; laser-chaos calls the period-16 rhythm a numerical observation, not proved; and airy-edge-hydrodynamics
 explains that its "blind" prediction rests on the theory seat's word, because the computed answers were already on disk.
@@ -160,6 +178,7 @@ and can be checked or re-run by anyone. Newest first.
 
 | Project | What it is | Archive |
 |---|---|---|
+| [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) | A computer-assisted location of the Chen-LeBrun-Weber Einstein metric on CP2#2(-CP2): an explicit polynomial approximant with a certified pointwise bound d_h <= 5.51e-8 (conditional on cited inputs), plus exactly one scalar eigenvalue in (0, 2 Lambda); every sealed test listed, failures included | [doi:10.5281/zenodo.24188065](https://doi.org/10.5281/zenodo.24188065) |
 | [human-catalog](https://github.com/Hashirama1337s/human-catalog) | A parts catalog for the history of our species: zoom from era to span to year to part, 7 million years ago to 2026; 873 parts each checked against its source, 24,057 people with real dates, 96 unsung heroes, 46 open questions humanity has not answered, a migration map and two games | [doi:10.5281/zenodo.23977246](https://doi.org/10.5281/zenodo.23977246) |
 | [airy-edge-hydrodynamics](https://github.com/Hashirama1337s/airy-edge-hydrodynamics) | Where fluid predictions for a holographic plasma stop working: the edge approaches a fixed point as d^(-1/3) with an Airy-function coefficient, predicted blind at d = 8192-32768 and checked to be the nearest obstacle at d = 512, 1024 and 8192 | [doi:10.5281/zenodo.23942230](https://doi.org/10.5281/zenodo.23942230) |
 | [large-d-gregory-laflamme](https://github.com/Hashirama1337s/large-d-gregory-laflamme) | The point where a black string cracks, as an exact large-dimension series to order 1/n^12 (multiple zeta values incl. zeta(5,3), zeta(3,5,3)), resummed to predict AdS plasma screening masses to 15+ digits | [doi:10.5281/zenodo.23940227](https://doi.org/10.5281/zenodo.23940227) |
