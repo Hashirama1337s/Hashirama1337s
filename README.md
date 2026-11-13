@@ -3,7 +3,17 @@
 **A small independent lab that proves, measures and checks things, from black holes to prime numbers to real devices.
 Each project ships its code and data, and says plainly what was and was not shown.**
 
-![Map of the lab: six doors, fourteen projects](brand/lab-map.svg)
+<p align="center">
+<a href="#puzzles-and-shapes"><img src="brand/door-puzzles.svg" width="200" height="84" alt="Puzzles and shapes: 2 projects"></a>
+<a href="#chaos-you-can-prove"><img src="brand/door-chaos.svg" width="200" height="84" alt="Chaos you can prove: 3 projects"></a>
+<a href="#gravity-and-black-holes"><img src="brand/door-gravity.svg" width="200" height="84" alt="Gravity and black holes: 3 projects"></a>
+<a href="#numbers-and-ramanujan"><img src="brand/door-numbers.svg" width="200" height="84" alt="Numbers and Ramanujan: 2 projects"></a>
+<br>
+<a href="#quantum-systems-and-their-parts"><img src="brand/door-quantum.svg" width="200" height="84" alt="Quantum systems and their parts: 2 projects"></a>
+<a href="#measuring-real-devices"><img src="brand/door-devices.svg" width="200" height="84" alt="Measuring real devices: 2 projects"></a>
+</p>
+
+<p align="center"><sub>Six doors, fourteen projects. Click a door to jump to its projects.</sub></p>
 
 Moki & Julio · text and data CC BY 4.0, code MIT, unless a repository says otherwise
 
