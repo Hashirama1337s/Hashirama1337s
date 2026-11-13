@@ -1,31 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="262" viewBox="0 0 860 262" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Map of the lab: six doors, fourteen projects">
 <title>Map of the lab: six doors, fourteen projects</title>
-<rect width="860" height="262" rx="10" fill="#ffffff" stroke="#d9dbe8"/>
-<text x="20" y="34" font-size="18" font-weight="600" fill="#18192b">Moki &amp; Julio: the map of the lab</text>
-<text x="20" y="54" font-size="12" fill="#555b74">Six doors, fourteen projects. Each ships its code and data, and says what was and was not shown.</text>
-<rect x="20" y="72" width="198" height="80" rx="8" fill="#eef0fa"/>
-<rect x="20" y="72" width="5" height="80" rx="2.5" fill="#3a3fa8"/>
-<text x="38" y="100" font-size="13.5" font-weight="600" fill="#18192b">Puzzles and shapes</text>
-<text x="38" y="140" font-size="11.5" fill="#555b74">2 projects</text>
-<rect x="230" y="72" width="198" height="80" rx="8" fill="#eef0fa"/>
-<rect x="230" y="72" width="5" height="80" rx="2.5" fill="#3a3fa8"/>
-<text x="248" y="100" font-size="13.5" font-weight="600" fill="#18192b">Chaos you can prove</text>
-<text x="248" y="140" font-size="11.5" fill="#555b74">3 projects</text>
-<rect x="440" y="72" width="198" height="80" rx="8" fill="#eef0fa"/>
-<rect x="440" y="72" width="5" height="80" rx="2.5" fill="#3a3fa8"/>
-<text x="458" y="100" font-size="13.5" font-weight="600" fill="#18192b">Gravity and black holes</text>
-<text x="458" y="140" font-size="11.5" fill="#555b74">3 projects</text>
-<rect x="650" y="72" width="198" height="80" rx="8" fill="#eef0fa"/>
-<rect x="650" y="72" width="5" height="80" rx="2.5" fill="#3a3fa8"/>
-<text x="668" y="100" font-size="13.5" font-weight="600" fill="#18192b">Numbers and Ramanujan</text>
-<text x="668" y="140" font-size="11.5" fill="#555b74">2 projects</text>
-<rect x="230" y="164" width="198" height="80" rx="8" fill="#eef0fa"/>
-<rect x="230" y="164" width="5" height="80" rx="2.5" fill="#3a3fa8"/>
-<text x="248" y="192" font-size="13.5" font-weight="600" fill="#18192b">Quantum systems and</text>
-<text x="248" y="209" font-size="13.5" font-weight="600" fill="#18192b">their parts</text>
-<text x="248" y="232" font-size="11.5" fill="#555b74">2 projects</text>
-<rect x="440" y="164" width="198" height="80" rx="8" fill="#eef0fa"/>
-<rect x="440" y="164" width="5" height="80" rx="2.5" fill="#3a3fa8"/>
-<text x="458" y="192" font-size="13.5" font-weight="600" fill="#18192b">Measuring real devices</text>
-<text x="458" y="232" font-size="11.5" fill="#555b74">2 projects</text>
+<defs>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22262c"/><stop offset="1" stop-color="#181b20"/></linearGradient>
+</defs>
+<rect width="860" height="262" rx="10" fill="url(#bg)" stroke="#2f353d"/>
+<text x="20" y="34" font-size="18" font-weight="600" fill="#e8edf2">Moki &amp; Julio: the map of the lab</text>
+<text x="20" y="54" font-size="12" fill="#9aa4ae">Six doors, fourteen projects. Each ships its code and data, and says what was and was not shown.</text>
+<g id="cards">
+<rect x="20" y="72" width="198" height="80" rx="8" fill="#262b31" stroke="#39ff14" stroke-opacity="0.45"/>
+<rect x="20" y="72" width="5" height="80" rx="2.5" fill="#39ff14" filter="url(#glow)"/>
+<text x="38" y="100" font-size="13.5" font-weight="600" fill="#e8edf2">Puzzles and shapes</text>
+<text x="38" y="140" font-size="11.5" font-weight="600" fill="#39ff14">2 projects</text>
+<rect x="230" y="72" width="198" height="80" rx="8" fill="#262b31" stroke="#39ff14" stroke-opacity="0.45"/>
+<rect x="230" y="72" width="5" height="80" rx="2.5" fill="#39ff14" filter="url(#glow)"/>
+<text x="248" y="100" font-size="13.5" font-weight="600" fill="#e8edf2">Chaos you can prove</text>
+<text x="248" y="140" font-size="11.5" font-weight="600" fill="#39ff14">3 projects</text>
+<rect x="440" y="72" width="198" height="80" rx="8" fill="#262b31" stroke="#39ff14" stroke-opacity="0.45"/>
+<rect x="440" y="72" width="5" height="80" rx="2.5" fill="#39ff14" filter="url(#glow)"/>
+<text x="458" y="100" font-size="13.5" font-weight="600" fill="#e8edf2">Gravity and black holes</text>
+<text x="458" y="140" font-size="11.5" font-weight="600" fill="#39ff14">3 projects</text>
+<rect x="650" y="72" width="198" height="80" rx="8" fill="#262b31" stroke="#39ff14" stroke-opacity="0.45"/>
+<rect x="650" y="72" width="5" height="80" rx="2.5" fill="#39ff14" filter="url(#glow)"/>
+<text x="668" y="100" font-size="13.5" font-weight="600" fill="#e8edf2">Numbers and Ramanujan</text>
+<text x="668" y="140" font-size="11.5" font-weight="600" fill="#39ff14">2 projects</text>
+<rect x="230" y="164" width="198" height="80" rx="8" fill="#262b31" stroke="#39ff14" stroke-opacity="0.45"/>
+<rect x="230" y="164" width="5" height="80" rx="2.5" fill="#39ff14" filter="url(#glow)"/>
+<text x="248" y="192" font-size="13.5" font-weight="600" fill="#e8edf2">Quantum systems and</text>
+<text x="248" y="209" font-size="13.5" font-weight="600" fill="#e8edf2">their parts</text>
+<text x="248" y="232" font-size="11.5" font-weight="600" fill="#39ff14">2 projects</text>
+<rect x="440" y="164" width="198" height="80" rx="8" fill="#262b31" stroke="#39ff14" stroke-opacity="0.45"/>
+<rect x="440" y="164" width="5" height="80" rx="2.5" fill="#39ff14" filter="url(#glow)"/>
+<text x="458" y="192" font-size="13.5" font-weight="600" fill="#e8edf2">Measuring real devices</text>
+<text x="458" y="232" font-size="11.5" font-weight="600" fill="#39ff14">2 projects</text>
+</g>
 </svg>
