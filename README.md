@@ -3,9 +3,11 @@
 **A small independent lab that proves, measures and checks things, from black holes to the history of our species. Each
 project ships its code and data, and says plainly what was and was not shown.**
 
+![Map of the lab: seven doors, fifteen projects](brand/lab-map.svg)
+
 Moki & Julio · text and data CC BY 4.0, code MIT, unless a repository says otherwise
 
-## The story in a minute
+## In plain words
 
 We do computational research: proofs a computer can check, measurements of real devices, and very long, very precise
 calculations. Each project below can be checked or re-run by anyone.
@@ -56,7 +58,7 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
   into a rhythm that repeats every 16 modulation periods, so the chaos is real but hidden (the rhythm is a numerical
   observation, not proved).
 
-### Black holes and extra dimensions
+### Gravity and black holes
 
 - [**certified-chen-lebrun-weber**](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) - A gravitational
   instanton that exists only as a theorem, now located by computer: an explicit approximation, and a proof that the true
@@ -113,14 +115,20 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
 ```mermaid
 flowchart LR
   A[In plain words<br/>top of the README] --> B[The paper or note<br/>exact claims]
-  B --> C[Scorecard<br/>HOLDS / FAILED / VOID]
+  B --> C[Scorecard<br/>HOLD / FAILED / VOID]
   C --> D[REPRODUCE<br/>re-run it yourself]
 ```
 
-The status words mean the same thing everywhere. **HOLDS**: passed a bar written before the data. **FAILED**: did not,
-and stays on the page. **VOID** or **NO VERDICT**: the test could not decide. **RETRACTED**: we withdrew it, and say why.
+The status words mean the same thing everywhere.
 
-## Use it as a tool
+| | Meaning |
+|---|---|
+| ![HOLD](brand/chips/hold.svg) | passed a bar written before the data (older pages print HOLDS) |
+| ![FAILED](brand/chips/failed.svg) | did not pass, and stays on the page |
+| ![VOID](brand/chips/void.svg) ![NO VERDICT](brand/chips/no-verdict.svg) | the test could not decide |
+| ![RETRACTED](brand/chips/retracted.svg) | we withdrew it, and say why |
+
+## Where to start
 
 | If you want to... | Start here |
 |---|---|
@@ -152,48 +160,29 @@ Each repository lists its exact commands and expected outputs, and most carry a 
 - **Blind seat** - a separately briefed computation that cannot see the prediction it is scoring.
 - **Search floor** - the dated list of sources we searched before saying something looked new.
 - **DOI** - a permanent link to an archived, citable version.
-- **L-function** - a function in the family of the Riemann zeta function; each has a degree (zeta itself is degree 1)
-  and zeros whose positions carry number-theoretic information.
-- **Modular form** - a highly symmetric function; eta(z)eta(23z) is one, and it has its own L-function of degree 2.
-- **Einstein metric** - a shape of space that solves Einstein's equations of gravity; a **gravitational instanton** is
-  one with no time direction, used in quantum gravity.
-- **Holographic plasma** - a hot plasma modelled by a black hole with a flat horizon (an AdS black brane) in a space with
-  one extra dimension.
-- **Class-B laser** - a laser described by two rate equations, one for the light intensity and one for the population
-  inversion.
+
+## All projects
+
+Newest first. Text and data are CC BY 4.0 and code is MIT unless a repository says otherwise.
+
+| Project | Door | Archive |
+|---|---|---|
+| [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) | Gravity and black holes | [doi:10.5281/zenodo.24188065](https://doi.org/10.5281/zenodo.24188065) |
+| [human-catalog](https://github.com/Hashirama1337s/human-catalog) | The history of our species | [doi:10.5281/zenodo.23977246](https://doi.org/10.5281/zenodo.23977246) |
+| [airy-edge-hydrodynamics](https://github.com/Hashirama1337s/airy-edge-hydrodynamics) | Gravity and black holes | [doi:10.5281/zenodo.23942230](https://doi.org/10.5281/zenodo.23942230) |
+| [large-d-gregory-laflamme](https://github.com/Hashirama1337s/large-d-gregory-laflamme) | Gravity and black holes | [doi:10.5281/zenodo.23940227](https://doi.org/10.5281/zenodo.23940227) |
+| [debruijn-newman-degree-two](https://github.com/Hashirama1337s/debruijn-newman-degree-two) | Numbers and Ramanujan | [doi:10.5281/zenodo.23794434](https://doi.org/10.5281/zenodo.23794434) |
+| [ramanujan-septic-galois](https://github.com/Hashirama1337s/ramanujan-septic-galois) | Numbers and Ramanujan | [doi:10.5281/zenodo.23790016](https://doi.org/10.5281/zenodo.23790016) |
+| [laser-chaos](https://github.com/Hashirama1337s/laser-chaos) | Chaos you can prove | [doi:10.5281/zenodo.23422903](https://doi.org/10.5281/zenodo.23422903) |
+| [certified-qubit-peel](https://github.com/Hashirama1337s/certified-qubit-peel) | Quantum systems and their parts | [doi:10.5281/zenodo.23293218](https://doi.org/10.5281/zenodo.23293218) |
+| [moment-map-local-maxima](https://github.com/Hashirama1337s/moment-map-local-maxima) | Quantum systems and their parts | [doi:10.5281/zenodo.23275890](https://doi.org/10.5281/zenodo.23275890) |
+| [ueda-chaos](https://github.com/Hashirama1337s/ueda-chaos) | Chaos you can prove | [doi:10.5281/zenodo.23172757](https://doi.org/10.5281/zenodo.23172757) |
+| [moki-julio-wifi-ris-cell](https://github.com/Hashirama1337s/moki-julio-wifi-ris-cell) | Measuring real devices | [doi:10.5281/zenodo.23165406](https://doi.org/10.5281/zenodo.23165406) |
+| [rikitake-chaos](https://github.com/Hashirama1337s/rikitake-chaos) | Chaos you can prove | [doi:10.5281/zenodo.23041182](https://doi.org/10.5281/zenodo.23041182) |
+| [szilassi-12](https://github.com/Hashirama1337s/szilassi-12) | Puzzles and shapes | [doi:10.5281/zenodo.23003257](https://doi.org/10.5281/zenodo.23003257) |
+| [moki-julio-circle-packing](https://github.com/Hashirama1337s/moki-julio-circle-packing) | Puzzles and shapes | [doi:10.5281/zenodo.22981305](https://doi.org/10.5281/zenodo.22981305) |
+| [kinect-v1-depth-levels](https://github.com/Hashirama1337s/kinect-v1-depth-levels) | Measuring real devices | GitHub only |
 
 ---
 
-## For specialists: the original README
-
-Kept as it stood on 2026-11-07, with newer projects added at the top of the table. Where it differs from the project pages, the project pages and the map above
-are current: human-catalog now lists 24,117 people; circle-packing lists 4,063 of its 6,071 released records as still
-best-known; laser-chaos calls the period-16 rhythm a numerical observation, not proved; and airy-edge-hydrodynamics
-explains that its "blind" prediction rests on the theory seat's word, because the computed answers were already on disk.
-
-# Moki & Julio
-
-Independent computational research. Every project ships its code and data, says plainly what was and was not shown,
-and can be checked or re-run by anyone. Newest first.
-
-| Project | What it is | Archive |
-|---|---|---|
-| [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) | A computer-assisted location of the Chen-LeBrun-Weber Einstein metric on CP2#2(-CP2): an explicit polynomial approximant with a certified pointwise bound d_h <= 5.51e-8 (conditional on cited inputs), plus exactly one scalar eigenvalue in (0, 2 Lambda); every sealed test listed, failures included | [doi:10.5281/zenodo.24188065](https://doi.org/10.5281/zenodo.24188065) |
-| [human-catalog](https://github.com/Hashirama1337s/human-catalog) | A parts catalog for the history of our species: zoom from era to span to year to part, 7 million years ago to 2026; 873 parts each checked against its source, 24,057 people with real dates, 96 unsung heroes, 46 open questions humanity has not answered, a migration map and two games | [doi:10.5281/zenodo.23977246](https://doi.org/10.5281/zenodo.23977246) |
-| [airy-edge-hydrodynamics](https://github.com/Hashirama1337s/airy-edge-hydrodynamics) | Where fluid predictions for a holographic plasma stop working: the edge approaches a fixed point as d^(-1/3) with an Airy-function coefficient, predicted blind at d = 8192-32768 and checked to be the nearest obstacle at d = 512, 1024 and 8192 | [doi:10.5281/zenodo.23942230](https://doi.org/10.5281/zenodo.23942230) |
-| [large-d-gregory-laflamme](https://github.com/Hashirama1337s/large-d-gregory-laflamme) | The point where a black string cracks, as an exact large-dimension series to order 1/n^12 (multiple zeta values incl. zeta(5,3), zeta(3,5,3)), resummed to predict AdS plasma screening masses to 15+ digits | [doi:10.5281/zenodo.23940227](https://doi.org/10.5281/zenodo.23940227) |
-| [debruijn-newman-degree-two](https://github.com/Hashirama1337s/debruijn-newman-degree-two) | Proven de Bruijn-Newman bounds below 1/2 in degree 2 (eta(z)eta(23z): 0.449938; none earlier found), and a product lemma giving such bounds for Dedekind zeta functions | [doi:10.5281/zenodo.23794434](https://doi.org/10.5281/zenodo.23794434) |
-| [ramanujan-septic-galois](https://github.com/Hashirama1337s/ramanujan-septic-galois) | Ramanujan's lost-notebook septic identity at every odd prime: the number fields of its pieces, one rule (Euler's idoneal numbers) for when they are cyclotomic at every odd level, units and a Stark-unit recipe | [doi:10.5281/zenodo.23790016](https://doi.org/10.5281/zenodo.23790016) |
-| [laser-chaos](https://github.com/Hashirama1337s/laser-chaos) | Computer-assisted proof that the loss-modulated class-B laser (the CO2-laser chaos model) has a chaotic set of motions; at the published parameters the long-run behaviour is a period-16 rhythm, so the chaos is real but hidden | [doi:10.5281/zenodo.23422903](https://doi.org/10.5281/zenodo.23422903) |
-| [certified-qubit-peel](https://github.com/Hashirama1337s/certified-qubit-peel) | A published method that builds qubits out of a list of energies, re-run with its authors' own code and checked against certified best splits: where its search misses, by how much, and what survives | [doi:10.5281/zenodo.23293218](https://doi.org/10.5281/zenodo.23293218) |
-| [moment-map-local-maxima](https://github.com/Hashirama1337s/moment-map-local-maxima) | Which ways of splitting a quantum system into parts make the parts interact least: an exact classification (theorem with complete proofs), extended to mutual information, explaining the McConnell-Jennings counts | [doi:10.5281/zenodo.23275890](https://doi.org/10.5281/zenodo.23275890) |
-| [ueda-chaos](https://github.com/Hashirama1337s/ueda-chaos) | Computer-assisted proof that Ueda's forced oscillator x'' + 0.05x' + x^3 = 7.5 cos t is chaotic | [doi:10.5281/zenodo.23172757](https://doi.org/10.5281/zenodo.23172757) |
-| [moki-julio-wifi-ris-cell](https://github.com/Hashirama1337s/moki-julio-wifi-ris-cell) | One 1-bit reconfigurable-intelligent-surface cell covering the 2.4 GHz and 5-7 GHz Wi-Fi bands with one switch state (simulation study, Palace FEM) | [doi:10.5281/zenodo.23165406](https://doi.org/10.5281/zenodo.23165406) |
-| [rikitake-chaos](https://github.com/Hashirama1337s/rikitake-chaos) | Computer-assisted proof that Rikitake's two-disc dynamo (1958) is chaotic | [doi:10.5281/zenodo.23041182](https://doi.org/10.5281/zenodo.23041182) |
-| [szilassi-12](https://github.com/Hashirama1337s/szilassi-12) | No symmetric 12-face Szilassi polyhedron: a computer-assisted proof with DRAT certificates | [doi:10.5281/zenodo.23003257](https://doi.org/10.5281/zenodo.23003257) |
-| [moki-julio-circle-packing](https://github.com/Hashirama1337s/moki-julio-circle-packing) | 6,071 new best-known packings of equal circles, spheres and hyperspheres, each verified by two independent exact checkers | [doi:10.5281/zenodo.22981305](https://doi.org/10.5281/zenodo.22981305) |
-| [kinect-v1-depth-levels](https://github.com/Hashirama1337s/kinect-v1-depth-levels) | The Xbox 360 Kinect measured as an instrument: the depth lattice, three noise populations, drift and a capability map | GitHub only |
-
-Text and data are CC BY 4.0 and code is MIT unless a repository says otherwise.
-
-*Prepared with AI assistance.*
+*Prepared with AI assistance; what was checked, and by what, is stated above.*
