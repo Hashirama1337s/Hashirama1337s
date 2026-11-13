@@ -25,7 +25,7 @@ FAILED, next to the results that held.
 **[certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber)** (November 2026). The
 Chen-LeBrun-Weber space is a solution of Einstein's equations of gravity that nobody can write down as a formula; it was
 known to exist since 2008, but only as a theorem. We built an explicit computed version and proved, with every rounding
-error counted, that the true space lies within about 5 parts in 100 million of it. As a consequence, its scalar
+error counted, that the true space lies within about 5.5 parts in 100 million of it. As a consequence, its scalar
 vibration spectrum has exactly one pitch below twice the cosmological constant. The proof is conditional on the cited
 results listed in the paper, and the scorecard lists all 30 sealed tests, including the 16 that failed.
 [doi:10.5281/zenodo.24188065](https://doi.org/10.5281/zenodo.24188065)
@@ -62,12 +62,12 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
 
 - [**certified-chen-lebrun-weber**](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) - A gravitational
   instanton that exists only as a theorem, now located by computer: an explicit approximation, and a proof that the true
-  Einstein metric lies within about 5 parts in 100 million of it (conditional on cited results). Ships the code, the
+  Einstein metric lies within about 5.5 parts in 100 million of it (conditional on cited results). Ships the code, the
   certified data, and every sealed test, failures included.
 - [**large-d-gregory-laflamme**](https://github.com/Hashirama1337s/large-d-gregory-laflamme) - The exact recipe for when
   a stretched black hole (a black string) starts to break apart, pushed from five terms to thirteen. Those 13 exact terms
   plus 38 computed numerically (51 in all), summed the right way and read through a mathematical mirror, predicted how a
-  hot holographic plasma screens a disturbance to about 15 digits.
+  hot holographic plasma screens a disturbance to about 9 and 15 digits at two untuned dimensions.
 - [**airy-edge-hydrodynamics**](https://github.com/Hashirama1337s/airy-edge-hydrodynamics) - Fluid equations describe a
   holographic plasma only up to a certain momentum. Followed from three to 32768 dimensions, that limit creeps towards a
   fixed point as one over the cube root of d, with a coefficient from the Airy function (formal, no error bounds). A model
@@ -78,7 +78,7 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
 
 - [**ramanujan-septic-galois**](https://github.com/Hashirama1337s/ramanujan-septic-galois) - On page 206 of his lost
   notebook Ramanujan left three pieces of a formula blank; Rebák filled them in in 2023. The same split exists at every
-  odd prime; we found the pieces at 11 and 13, computed them for every prime below 100, and proved the rules that govern
+  odd prime; we found the pieces at 11 and 13, computed them for every prime below 100, and proved most of the rules that govern
   them.
 - [**debruijn-newman-degree-two**](https://github.com/Hashirama1337s/debruijn-newman-degree-two) - Every L-function has a
   "heat dial" that pushes its zeros onto one line. We proved the dial never needs to go past 0.449938 for the modular
@@ -101,7 +101,7 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
   report just any distance: between 1 and 4 metres it has exactly 259 possible answers, all on one published table. Also
   three kinds of noisy pixel, warm-up drift, and a map of what the hardware can and cannot do.
 - [**moki-julio-wifi-ris-cell**](https://github.com/Hashirama1337s/moki-julio-wifi-ris-cell) - A "smart mirror" for
-  Wi-Fi: one 15 mm cell whose single 1-bit switch state covers 2.4 GHz and the full 5.15-7.125 GHz span. Simulation only;
+  Wi-Fi: one 15 mm cell whose single 1-bit switch state serves 2.4 GHz and the full 5.15-7.125 GHz span, meeting a 2 dB loss budget at every simulated angle but one, with the strict phase target met only in part. Simulation only;
   nothing has been built or measured.
 
 ### The history of our species
@@ -133,7 +133,7 @@ The status words mean the same thing everywhere.
 | If you want to... | Start here |
 |---|---|
 | explore history by clicking, no install | [the Human Catalog](https://hashirama1337s.github.io/human-catalog/) |
-| re-run a certified existence proof for an Einstein metric | [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) (Python + python-flint; the final check takes seconds) |
+| re-run a certified computation of an Einstein metric | [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) (Python + python-flint; the final check takes seconds) |
 | check a computer-assisted proof yourself | [szilassi-12](https://github.com/Hashirama1337s/szilassi-12), [ueda-chaos](https://github.com/Hashirama1337s/ueda-chaos), [rikitake-chaos](https://github.com/Hashirama1337s/rikitake-chaos), [laser-chaos](https://github.com/Hashirama1337s/laser-chaos) |
 | use record packings and their exact certificates | [moki-julio-circle-packing](https://github.com/Hashirama1337s/moki-julio-circle-packing) |
 | compute a screening mass of the AdS black brane at your own d | [large-d-gregory-laflamme](https://github.com/Hashirama1337s/large-d-gregory-laflamme) (Python + mpmath, seconds) |
@@ -171,9 +171,9 @@ Newest first. Text and data are CC BY 4.0 and code is MIT unless a repository sa
 | [human-catalog](https://github.com/Hashirama1337s/human-catalog) | The history of our species | [doi:10.5281/zenodo.23977246](https://doi.org/10.5281/zenodo.23977246) |
 | [airy-edge-hydrodynamics](https://github.com/Hashirama1337s/airy-edge-hydrodynamics) | Gravity and black holes | [doi:10.5281/zenodo.23942230](https://doi.org/10.5281/zenodo.23942230) |
 | [large-d-gregory-laflamme](https://github.com/Hashirama1337s/large-d-gregory-laflamme) | Gravity and black holes | [doi:10.5281/zenodo.23940227](https://doi.org/10.5281/zenodo.23940227) |
-| [debruijn-newman-degree-two](https://github.com/Hashirama1337s/debruijn-newman-degree-two) | Numbers and Ramanujan | [doi:10.5281/zenodo.23794434](https://doi.org/10.5281/zenodo.23794434) |
-| [ramanujan-septic-galois](https://github.com/Hashirama1337s/ramanujan-septic-galois) | Numbers and Ramanujan | [doi:10.5281/zenodo.23790016](https://doi.org/10.5281/zenodo.23790016) |
-| [laser-chaos](https://github.com/Hashirama1337s/laser-chaos) | Chaos you can prove | [doi:10.5281/zenodo.23422903](https://doi.org/10.5281/zenodo.23422903) |
+| [debruijn-newman-degree-two](https://github.com/Hashirama1337s/debruijn-newman-degree-two) | Numbers and Ramanujan | [doi:10.5281/zenodo.23794431](https://doi.org/10.5281/zenodo.23794431) |
+| [ramanujan-septic-galois](https://github.com/Hashirama1337s/ramanujan-septic-galois) | Numbers and Ramanujan | [doi:10.5281/zenodo.23790015](https://doi.org/10.5281/zenodo.23790015) |
+| [laser-chaos](https://github.com/Hashirama1337s/laser-chaos) | Chaos you can prove | [doi:10.5281/zenodo.23422901](https://doi.org/10.5281/zenodo.23422901) |
 | [certified-qubit-peel](https://github.com/Hashirama1337s/certified-qubit-peel) | Quantum systems and their parts | [doi:10.5281/zenodo.23293218](https://doi.org/10.5281/zenodo.23293218) |
 | [moment-map-local-maxima](https://github.com/Hashirama1337s/moment-map-local-maxima) | Quantum systems and their parts | [doi:10.5281/zenodo.23275890](https://doi.org/10.5281/zenodo.23275890) |
 | [ueda-chaos](https://github.com/Hashirama1337s/ueda-chaos) | Chaos you can prove | [doi:10.5281/zenodo.23172757](https://doi.org/10.5281/zenodo.23172757) |
