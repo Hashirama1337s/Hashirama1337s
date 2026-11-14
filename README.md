@@ -32,13 +32,13 @@ FAILED, next to the results that held.
 
 ## Newest
 
-**[certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber)** (November 2026). The
-Chen-LeBrun-Weber space is a solution of Einstein's equations of gravity that nobody can write down as a formula; it was
-known to exist since 2008, but only as a theorem. We built an explicit computed version and proved, with every rounding
-error counted, that the true space lies within about 5.5 parts in 100 million of it. As a consequence, its scalar
-vibration spectrum has exactly one pitch below twice the cosmological constant. The proof is conditional on the cited
-results listed in the paper, and the scorecard lists all 30 sealed tests, including the 16 that failed.
-[doi:10.5281/zenodo.24188065](https://doi.org/10.5281/zenodo.24188065)
+**[certified-kummer-k3](https://github.com/Hashirama1337s/certified-kummer-k3)** (November 2026). A K3 surface is the
+four-dimensional shape string theory uses for hidden extra dimensions. It carries a perfectly balanced geometry that
+exists by Yau's theorem but has no formula. For one Kummer K3 surface, glued from a flat torus and 16 small round
+patches, we proved with interval arithmetic that the perfect geometry lies within an explicit distance of the glued one
+for every patch size up to 0.03: under 0.3 percent at patch size 0.01. Seven referee passes, three blind replications and
+a clean-room rebuild checked it; the scorecard lists every sealed test, including the 3 that failed and 4 that were void.
+[doi:10.5281/zenodo.24216647](https://doi.org/10.5281/zenodo.24216647)
 
 ## The map of the lab
 
@@ -70,6 +70,10 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
 
 ### Gravity and black holes
 
+- [**certified-kummer-k3**](https://github.com/Hashirama1337s/certified-kummer-k3) - The perfect geometry of a K3
+  surface, string theory's hidden four dimensions, pinned between two copies of an explicit glued formula: a computer
+  proof, for every patch size up to 0.03, that they differ by at most 0.29 percent at size 0.01 and 12.2 percent at 0.03
+  (conditional on a floating-point assumption and cited standard facts).
 - [**certified-chen-lebrun-weber**](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) - A gravitational
   instanton that exists only as a theorem, now located by computer: an explicit approximation, and a proof that the true
   Einstein metric lies within about 5.5 parts in 100 million of it (conditional on cited results). Ships the code, the
@@ -137,6 +141,7 @@ The status words mean the same thing everywhere.
 | If you want to... | Start here |
 |---|---|
 | re-run a certified computation of an Einstein metric | [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) (Python + python-flint; the final check takes seconds) |
+| rebuild a certified Calabi-Yau (K3) bound from empty state | [certified-kummer-k3](https://github.com/Hashirama1337s/certified-kummer-k3) (Python + python-flint; the full chain takes about an hour, the final assembly a minute) |
 | check a computer-assisted proof yourself | [szilassi-12](https://github.com/Hashirama1337s/szilassi-12), [ueda-chaos](https://github.com/Hashirama1337s/ueda-chaos), [rikitake-chaos](https://github.com/Hashirama1337s/rikitake-chaos), [laser-chaos](https://github.com/Hashirama1337s/laser-chaos) |
 | use record packings and their exact certificates | [moki-julio-circle-packing](https://github.com/Hashirama1337s/moki-julio-circle-packing) |
 | compute a screening mass of the AdS black brane at your own d | [large-d-gregory-laflamme](https://github.com/Hashirama1337s/large-d-gregory-laflamme) (Python + mpmath, seconds) |
@@ -153,6 +158,9 @@ Each repository lists its exact commands and expected outputs, and most carry a 
 - Records can fall: circle-packing lists every packing others have since beaten or tied.
 - The Wi-Fi cell is a simulation study; the Kinect results are one unit, one operator.
 - certified-chen-lebrun-weber is conditional on the results it cites (listed in its paper), one of them a preprint.
+- certified-kummer-k3 is conditional on a floating-point rounding assumption and on standard facts it cites without
+  re-proving; it is not the first certified K3 metric (that is a different K3, the Fermat quartic) and not the first
+  explicit gluing bound (a hand-proved one exists on a Calabi-Yau threefold). Its paper credits both.
 
 ## Words you will meet
 
@@ -171,6 +179,7 @@ Newest first. Text and data are CC BY 4.0 and code is MIT unless a repository sa
 
 | Project | Door | Archive |
 |---|---|---|
+| [certified-kummer-k3](https://github.com/Hashirama1337s/certified-kummer-k3) | Gravity and black holes | [doi:10.5281/zenodo.24216647](https://doi.org/10.5281/zenodo.24216647) |
 | [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) | Gravity and black holes | [doi:10.5281/zenodo.24188065](https://doi.org/10.5281/zenodo.24188065) |
 | [airy-edge-hydrodynamics](https://github.com/Hashirama1337s/airy-edge-hydrodynamics) | Gravity and black holes | [doi:10.5281/zenodo.23942230](https://doi.org/10.5281/zenodo.23942230) |
 | [large-d-gregory-laflamme](https://github.com/Hashirama1337s/large-d-gregory-laflamme) | Gravity and black holes | [doi:10.5281/zenodo.23940227](https://doi.org/10.5281/zenodo.23940227) |
