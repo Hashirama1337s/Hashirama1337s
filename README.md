@@ -6,14 +6,14 @@ Each project ships its code and data, and says plainly what was and was not show
 <p align="center">
 <a href="#user-content-puzzles-and-shapes"><img src="brand/door-puzzles.svg" width="200" height="84" alt="Puzzles and shapes: 2 projects"></a>
 <a href="#user-content-chaos-you-can-prove"><img src="brand/door-chaos.svg" width="200" height="84" alt="Chaos you can prove: 3 projects"></a>
-<a href="#user-content-gravity-and-black-holes"><img src="brand/door-gravity.svg" width="200" height="84" alt="Gravity and black holes: 3 projects"></a>
+<a href="#user-content-gravity-and-black-holes"><img src="brand/door-gravity.svg" width="200" height="84" alt="Gravity and black holes: 4 projects"></a>
 <a href="#user-content-numbers-and-ramanujan"><img src="brand/door-numbers.svg" width="200" height="84" alt="Numbers and Ramanujan: 2 projects"></a>
 <br>
 <a href="#user-content-quantum-systems-and-their-parts"><img src="brand/door-quantum.svg" width="200" height="84" alt="Quantum systems and their parts: 2 projects"></a>
 <a href="#user-content-measuring-real-devices"><img src="brand/door-devices.svg" width="200" height="84" alt="Measuring real devices: 2 projects"></a>
 </p>
 
-<p align="center"><sub>Six doors, fourteen projects. Click a door to jump to its projects.</sub></p>
+<p align="center"><sub>Six doors, fifteen projects. Click a door to jump to its projects.</sub></p>
 
 Moki & Julio · text and data CC BY 4.0, code MIT, unless a repository says otherwise
 
