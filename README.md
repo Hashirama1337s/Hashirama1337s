@@ -6,14 +6,14 @@ Each project ships its code and data, and says plainly what was and was not show
 <p align="center">
 <a href="#user-content-puzzles-and-shapes"><img src="brand/door-puzzles.svg" width="200" height="84" alt="Puzzles and shapes: 2 projects"></a>
 <a href="#user-content-chaos-you-can-prove"><img src="brand/door-chaos.svg" width="200" height="84" alt="Chaos you can prove: 3 projects"></a>
-<a href="#user-content-gravity-and-black-holes"><img src="brand/door-gravity.svg" width="200" height="84" alt="Gravity and black holes: 5 projects"></a>
+<a href="#user-content-gravity-and-black-holes"><img src="brand/door-gravity.svg" width="200" height="84" alt="Gravity and black holes: 6 projects"></a>
 <a href="#user-content-numbers-and-ramanujan"><img src="brand/door-numbers.svg" width="200" height="84" alt="Numbers and Ramanujan: 2 projects"></a>
 <br>
 <a href="#user-content-quantum-systems-and-their-parts"><img src="brand/door-quantum.svg" width="200" height="84" alt="Quantum systems and their parts: 2 projects"></a>
 <a href="#user-content-measuring-real-devices"><img src="brand/door-devices.svg" width="200" height="84" alt="Measuring real devices: 2 projects"></a>
 </p>
 
-<p align="center"><sub>Six doors, sixteen projects. Click a door to jump to its projects.</sub></p>
+<p align="center"><sub>Six doors, seventeen projects. Click a door to jump to its projects.</sub></p>
 
 Moki & Julio · text and data CC BY 4.0, code MIT, unless a repository says otherwise
 
@@ -32,13 +32,14 @@ FAILED, next to the results that held.
 
 ## Newest
 
-**[certified-bowen-york-spin](https://github.com/Hashirama1337s/certified-bowen-york-spin)** (November 2026). A widely
-used recipe for setting up a spinning black hole on a computer, the Bowen-York construction, has a spin ceiling:
-J/M² stays near 0.928, far below the limit of 1. We proved with interval arithmetic where the ceiling is (it rounds to
-0.928200), measured the limiting object itself, an infinitely long throat, to about 11 digits, and proved by hand that
-this limiting throat contains no horizon at all, a question Dain and Gabach Clement had left open in 2008. Every load-bearing number
-was reproduced by a blind, independently written certificate; the scorecard lists every sealed test, including the one
-that failed. [doi:10.5281/zenodo.24233955](https://doi.org/10.5281/zenodo.24233955)
+**[certified-evans-coleman](https://github.com/Hashirama1337s/certified-evans-coleman)** (November 2026). When a ball of radiation collapses
+under its own gravity, a tiny change in the starting push decides between a black hole and a cloud that flies apart.
+Exactly on the dividing line sits a special shrinking solution, found by computer in 1994. We proved with interval
+arithmetic that it exists (two independently written proofs agree to 19 digits) and that, among round disturbances,
+it has exactly one way to fall, with critical exponent γ = 0.3558019224 ± 7e-11. It is the first certified count of
+the ways a continuously self-similar collapse solution can fall. A clean-room replay re-ran every certificate; the
+scorecard lists every sealed test, including the 3 that failed and 2 that were void.
+[doi:10.5281/zenodo.24303877](https://doi.org/10.5281/zenodo.24303877)
 
 ## The map of the lab
 
@@ -70,6 +71,10 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
 
 ### Gravity and black holes
 
+- [**certified-evans-coleman**](https://github.com/Hashirama1337s/certified-evans-coleman) - Does the ball of light exist, and how many ways can
+  it fall? A computer proof that the Evans-Coleman critical solution of radiation collapse exists and has exactly
+  one growing spherical mode, with γ in [0.3558019224 ± 6.97e-11] (computer-assisted; internal checks, not external
+  peer review).
 - [**certified-bowen-york-spin**](https://github.com/Hashirama1337s/certified-bowen-york-spin) - How fast can a
   Bowen-York black hole spin? A computer proof that the ceiling of J/M² lies in [0.9282004538, 0.9282004687], and the
   limiting throat's own spin to about 11 digits; plus hand proofs that the mass is convex in the bare mass and that the
@@ -144,6 +149,7 @@ The status words mean the same thing everywhere.
 
 | If you want to... | Start here |
 |---|---|
+| re-run a certified count of the ways a collapse can fall | [certified-evans-coleman](https://github.com/Hashirama1337s/certified-evans-coleman) (Python + python-flint; the quick tier takes about 20 minutes, the full replay about 5 hours) |
 | re-run a certified black-hole spin bound | [certified-bowen-york-spin](https://github.com/Hashirama1337s/certified-bowen-york-spin) (Python + python-flint; the fast checks take minutes, the full sixth-digit run about 30 minutes) |
 | re-run a certified computation of an Einstein metric | [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) (Python + python-flint; the final check takes seconds) |
 | rebuild a certified Calabi-Yau (K3) bound from empty state | [certified-kummer-k3](https://github.com/Hashirama1337s/certified-kummer-k3) (Python + python-flint; the full chain takes about an hour, the final assembly a minute) |
@@ -162,6 +168,9 @@ Each repository lists its exact commands and expected outputs, and most carry a 
 - "We found no earlier ..." is a search floor (a dated search of named sources), not a clearance.
 - Records can fall: circle-packing lists every packing others have since beaten or tied.
 - The Wi-Fi cell is a simulation study; the Kinect results are one unit, one operator.
+- certified-evans-coleman counts round (spherical) disturbances only, analytic through the sonic point; local
+  uniqueness, nonlinear stability and the black-hole mass law are not claimed; the solution and its numbers were
+  first computed numerically in 1994-1996 (credited); its Far Wall is not Lean-checked as a whole.
 - certified-bowen-york-spin concerns one family of computer-built black-hole data (conformally flat Bowen-York), not
   real astrophysical black holes; its "referees" and "blind seats" are internal checks, not external peer review; it
   trusts ball arithmetic and cites standard facts listed in its paper, and credits Dain and Gabach Clement for the
@@ -188,6 +197,7 @@ Newest first. Text and data are CC BY 4.0 and code is MIT unless a repository sa
 
 | Project | Door | Archive |
 |---|---|---|
+| [certified-evans-coleman](https://github.com/Hashirama1337s/certified-evans-coleman) | Gravity and black holes | [doi:10.5281/zenodo.24303877](https://doi.org/10.5281/zenodo.24303877) |
 | [certified-bowen-york-spin](https://github.com/Hashirama1337s/certified-bowen-york-spin) | Gravity and black holes | [doi:10.5281/zenodo.24233955](https://doi.org/10.5281/zenodo.24233955) |
 | [certified-kummer-k3](https://github.com/Hashirama1337s/certified-kummer-k3) | Gravity and black holes | [doi:10.5281/zenodo.24216647](https://doi.org/10.5281/zenodo.24216647) |
 | [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber) | Gravity and black holes | [doi:10.5281/zenodo.24188065](https://doi.org/10.5281/zenodo.24188065) |
