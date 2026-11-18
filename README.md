@@ -6,14 +6,14 @@ Each project ships its code and data, and says plainly what was and was not show
 <p align="center">
 <a href="#user-content-puzzles-and-shapes"><img src="brand/door-puzzles.svg" width="200" height="84" alt="Puzzles and shapes: 2 projects"></a>
 <a href="#user-content-chaos-you-can-prove"><img src="brand/door-chaos.svg" width="200" height="84" alt="Chaos you can prove: 3 projects"></a>
-<a href="#user-content-gravity-and-black-holes"><img src="brand/door-gravity.svg" width="200" height="84" alt="Gravity and black holes: 7 projects"></a>
+<a href="#user-content-gravity-and-black-holes"><img src="brand/door-gravity.svg" width="200" height="84" alt="Gravity and black holes: 8 projects"></a>
 <a href="#user-content-numbers-and-ramanujan"><img src="brand/door-numbers.svg" width="200" height="84" alt="Numbers and Ramanujan: 2 projects"></a>
 <br>
 <a href="#user-content-quantum-systems-and-their-parts"><img src="brand/door-quantum.svg" width="200" height="84" alt="Quantum systems and their parts: 2 projects"></a>
 <a href="#user-content-measuring-real-devices"><img src="brand/door-devices.svg" width="200" height="84" alt="Measuring real devices: 2 projects"></a>
 </p>
 
-<p align="center"><sub>Six doors, eighteen projects. Click a door to jump to its projects.</sub></p>
+<p align="center"><sub>Six doors, nineteen projects. Click a door to jump to its projects.</sub></p>
 
 Moki & Julio · text and data CC BY 4.0, code MIT, unless a repository says otherwise
 
@@ -32,14 +32,15 @@ FAILED, next to the results that held.
 
 ## Newest
 
-**[certified-page-time](https://github.com/Hashirama1337s/certified-page-time)** (November 2026). A black hole slowly evaporates by giving off Hawking radiation.
-For every unit of entropy it loses, its radiation carries away about 1.4847 units, and that one number fixes the moment
-when, if no information is lost, the black hole must start giving information back: 53.81% of the way through its life
-(the "Page time"). Don Page computed these numbers in 2013 to about four or five digits and left the last ones as a
-challenge. We proved them with interval arithmetic for a Schwarzschild black hole emitting photons and gravitons:
-β = 1.4846916919 ± 7.81e-11 and Page time 0.5381024532 ± 8.99e-11 of its life. A blind second program using a different
-method lands inside the certified box; the graviton part had been certified earlier, more loosely, by another author.
-[doi:10.5281/zenodo.24327159](https://doi.org/10.5281/zenodo.24327159)
+**[certified-quantum-ball](https://github.com/Hashirama1337s/certified-quantum-ball)** (November 2026). Which way does the
+quantum world push a collapsing ball of light? Exactly on the line between "becomes a black hole" and "flies apart" sits
+the Evans-Coleman critical solution. Every free massless quantum field of spin up to 1 leaves the same fingerprint on it,
+the Bach tensor. We mapped that fingerprint with guaranteed error bars (negative in the core, positive in the shell, one
+sign change), then computed how the ball answers it. Where the gas stands still and the ball is locally most compact,
+the slowly growing quantum push raises the compactness, toward trapping: Ψ2 = 3.4616358037141656915 ± 3.02e-12. A blind
+second program agrees to 7e-12. Every claim assumes a self-similar quantum state whose existence is not proved; which way
+this moves the black-hole threshold is stated only as a conjecture.
+[doi:10.5281/zenodo.24341256](https://doi.org/10.5281/zenodo.24341256)
 
 ## The map of the lab
 
@@ -71,6 +72,10 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
 
 ### Gravity and black holes
 
+- [**certified-quantum-ball**](https://github.com/Hashirama1337s/certified-quantum-ball) - Which way does the quantum world push a
+  ball of light? A certified one-loop quantum source on the Evans-Coleman critical solution, and the sign of its push on
+  the peak compactness: Ψ2 = 3.4616358037141656915 ± 3.02e-12, toward trapping (computer-assisted; conditional on a
+  self-similar quantum state; internal checks and a blind replication, not external peer review).
 - [**certified-page-time**](https://github.com/Hashirama1337s/certified-page-time) - When does a black hole stop being a one-way door? Certified entropy ratio
   β = 1.4846916919 ± 7.81e-11 and Page time 0.5381024532 ± 8.99e-11 of its life, for a Schwarzschild black hole emitting
   photons and gravitons (computer-assisted; internal checks and a blind replication, not external peer review).
@@ -152,6 +157,7 @@ The status words mean the same thing everywhere.
 
 | If you want to... | Start here |
 |---|---|
+| re-run a certified quantum push on a critical collapse | [certified-quantum-ball](https://github.com/Hashirama1337s/certified-quantum-ball) (Python + python-flint; the quick tier takes about 20 minutes, the full replay about 7 hours) |
 | re-run a certified Hawking-radiation calculation | [certified-page-time](https://github.com/Hashirama1337s/certified-page-time) (Python + python-flint; the quick tier takes about a minute, the full replay about 13 minutes) |
 | re-run a certified count of the ways a collapse can fall | [certified-evans-coleman](https://github.com/Hashirama1337s/certified-evans-coleman) (Python + python-flint; the quick tier takes about 20 minutes, the full replay about 5 hours) |
 | re-run a certified black-hole spin bound | [certified-bowen-york-spin](https://github.com/Hashirama1337s/certified-bowen-york-spin) (Python + python-flint; the fast checks take minutes, the full sixth-digit run about 30 minutes) |
@@ -172,6 +178,9 @@ Each repository lists its exact commands and expected outputs, and most carry a 
 - "We found no earlier ..." is a search floor (a dated search of named sources), not a clearance.
 - Records can fall: circle-packing lists every packing others have since beaten or tied.
 - The Wi-Fi cell is a simulation study; the Kinect results are one unit, one operator.
+- certified-quantum-ball assumes a Hadamard quantum state respecting self-similarity, whose existence is not proved;
+  it computes only the state-independent part of the quantum push, and the direction of the black-hole threshold shift is
+  a conjecture; its conservation-width bar failed and is reported as failed.
 - certified-page-time covers Page's model (a non-rotating black hole emitting photons and gravitons into empty space);
   spinning or charged holes, neutrinos and other particles are not covered, and it makes no claim about how the
   information paradox is resolved; its proofs are refereed internally but not machine-checked.
@@ -204,6 +213,7 @@ Newest first. Text and data are CC BY 4.0 and code is MIT unless a repository sa
 
 | Project | Door | Archive |
 |---|---|---|
+| [certified-quantum-ball](https://github.com/Hashirama1337s/certified-quantum-ball) | Gravity and black holes | [doi:10.5281/zenodo.24341256](https://doi.org/10.5281/zenodo.24341256) |
 | [certified-page-time](https://github.com/Hashirama1337s/certified-page-time) | Gravity and black holes | [doi:10.5281/zenodo.24327159](https://doi.org/10.5281/zenodo.24327159) |
 | [certified-evans-coleman](https://github.com/Hashirama1337s/certified-evans-coleman) | Gravity and black holes | [doi:10.5281/zenodo.24303877](https://doi.org/10.5281/zenodo.24303877) |
 | [certified-bowen-york-spin](https://github.com/Hashirama1337s/certified-bowen-york-spin) | Gravity and black holes | [doi:10.5281/zenodo.24233955](https://doi.org/10.5281/zenodo.24233955) |
