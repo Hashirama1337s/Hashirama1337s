@@ -32,13 +32,13 @@ FAILED, next to the results that held.
 
 ## Newest
 
-**[certified-dark-core](https://github.com/Hashirama1337s/certified-dark-core)** (November 2026). Can a hollow-shell
-ball of dark matter be stable? If dark matter is an ultralight field, it can gather into balls; the version with one
-hollow shell inside was found stable only in simulations. We proved it with guaranteed error bars, at nine settings of
-its central amplitude: no small shake of any shape grows exponentially. We also pinned both edges of the stable window
-inside gaps of 0.002 (a growing mode is certified at 1.595 and 1.985, stability at 1.597 and 1.983), and certified
-growing modes at 1.55 and 2.00, inside the window published earlier. Linear (spectral) stability only, at grid points,
-not a whole interval; internal referees and a blind float replication, not external peer review.
+**[certified-dark-core](https://github.com/Hashirama1337s/certified-dark-core)** (November 2026, v2.0). Can a
+hollow-shell ball of dark matter be stable? If dark matter is an ultralight field, it can gather into balls; the one
+with a hollow shell inside was called stable only on the strength of simulations. We proved, with guaranteed error
+bars, that no small shake of any shape grows exponentially, for every central amplitude from 1.597 to 1.983 (one
+continuous family of balls), and certified growing modes just outside (1.595 and 1.985), so the stable window is
+pinned up to 0.002-wide edge brackets. Linear (spectral) stability only; computer-assisted, internal AI referees and
+an independent checker, not Lean-checked and not external peer review.
 [doi:10.5281/zenodo.24359032](https://doi.org/10.5281/zenodo.24359032)
 
 ## The map of the lab
@@ -72,9 +72,9 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
 ### Gravity and black holes
 
 - [**certified-dark-core**](https://github.com/Hashirama1337s/certified-dark-core) - Can a hollow-shell ball of dark matter
-  be stable? Certified linear stability of the one-node Gross-Pitaevskii-Poisson state at nine points, and certified
-  brackets of both edges of its stability band ([1.595, 1.597] and [1.983, 1.985]); edges set by Krein collisions in the
-  float map (computer-assisted; internal referees and a blind float replication, not external peer review).
+  be stable? Certified linear stability of the one-node Gross-Pitaevskii-Poisson state for every central amplitude in
+  [1.597, 1.983], with certified growing modes at 1.595 and 1.985 (computer-assisted; internal referees, an
+  independent checker and a blind float replication, not external peer review).
 - [**certified-quantum-ball**](https://github.com/Hashirama1337s/certified-quantum-ball) - Which way does the quantum world push a
   ball of light? A certified one-loop quantum source on the Evans-Coleman critical solution, and the sign of its push on
   the peak compactness: Ψ2 = 3.4616358037141656915 ± 3.02e-12, toward trapping (computer-assisted; conditional on a
@@ -182,9 +182,8 @@ Each repository lists its exact commands and expected outputs, and most carry a 
 - "We found no earlier ..." is a search floor (a dated search of named sources), not a clearance.
 - Records can fall: circle-packing lists every packing others have since beaten or tied.
 - The Wi-Fi cell is a simulation study; the Kinect results are one unit, one operator.
-- certified-dark-core proves linear (spectral) stability only, at nine grid points of the central amplitude, not over an
-  interval; the stable window between its certified edge brackets is a float map, and nonlinear or orbital stability is
-  not claimed.
+- certified-dark-core proves linear (spectral) stability only, along one certified continuous family of states
+  (locally unique, not globally); the edges are brackets 0.002 wide, and nonlinear or orbital stability is not claimed.
 - certified-quantum-ball assumes a Hadamard quantum state respecting self-similarity, whose existence is not proved;
   it computes only the state-independent part of the quantum push, and the direction of the black-hole threshold shift is
   a conjecture; its conservation-width bar failed and is reported as failed.
