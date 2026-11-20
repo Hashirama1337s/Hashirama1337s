@@ -4,7 +4,7 @@
 Each project ships its code and data, and says plainly what was and was not shown.**
 
 <p align="center">
-<a href="#user-content-puzzles-and-shapes"><img src="brand/door-puzzles.svg" width="200" height="84" alt="Puzzles and shapes: 2 projects"></a>
+<a href="#user-content-puzzles-and-shapes"><img src="brand/door-puzzles.svg" width="200" height="84" alt="Puzzles and shapes: 3 projects"></a>
 <a href="#user-content-chaos-you-can-prove"><img src="brand/door-chaos.svg" width="200" height="84" alt="Chaos you can prove: 3 projects"></a>
 <a href="#user-content-gravity-and-black-holes"><img src="brand/door-gravity.svg" width="200" height="84" alt="Gravity and black holes: 9 projects"></a>
 <a href="#user-content-numbers-and-ramanujan"><img src="brand/door-numbers.svg" width="200" height="84" alt="Numbers and Ramanujan: 2 projects"></a>
@@ -13,7 +13,7 @@ Each project ships its code and data, and says plainly what was and was not show
 <a href="#user-content-measuring-real-devices"><img src="brand/door-devices.svg" width="200" height="84" alt="Measuring real devices: 2 projects"></a>
 </p>
 
-<p align="center"><sub>Six doors, twenty projects. Click a door to jump to its projects.</sub></p>
+<p align="center"><sub>Six doors, twenty-one projects. Click a door to jump to its projects.</sub></p>
 
 Moki & Julio · text and data CC BY 4.0, code MIT, unless a repository says otherwise
 
@@ -32,14 +32,15 @@ FAILED, next to the results that held.
 
 ## Newest
 
-**[certified-dark-core](https://github.com/Hashirama1337s/certified-dark-core)** (November 2026, v2.0). Can a
-hollow-shell ball of dark matter be stable? If dark matter is an ultralight field, it can gather into balls; the one
-with a hollow shell inside was called stable only on the strength of simulations. We proved, with guaranteed error
-bars, that no small shake of any shape grows exponentially, for every central amplitude from 1.597 to 1.983 (one
-continuous family of balls), and certified growing modes just outside (1.595 and 1.985), so the stable window is
-pinned up to 0.002-wide edge brackets. Linear (spectral) stability only; computer-assisted, internal AI referees and
-an independent checker, not Lean-checked and not external peer review.
-[doi:10.5281/zenodo.24359032](https://doi.org/10.5281/zenodo.24359032)
+**[y56-atlas](https://github.com/Hashirama1337s/y56-atlas)** (November 2026, v1.0). A smooth curved surface of degree 4 can hold at most
+ 56 real straight lines, and exactly one surface does it: Y56, found by Degtyarev, Itenberg and Sertöz. This atlas
+writes out everything it carries, exactly (all 56 lines, its 188 conics, its 32 symmetries), then turns one dial in
+its equation: 40 lines ride along the whole family, and 16 lines exist only at the single setting where
+2s<sup>4</sup> = 81, which is Y56 itself, because three equations in two unknowns agree only there. 524 theorems are
+checked in Lean, three internal referee rounds re-derived the rest, and an interactive 3-D viewer ships with it.
+The surface, its line count and its symmetry count are others' published work, credited; internal AI referees,
+not external peer review.
+[doi:10.5281/zenodo.24406738](https://doi.org/10.5281/zenodo.24406738)
 
 ## The map of the lab
 
@@ -47,6 +48,9 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
 
 ### Puzzles and shapes
 
+- [**y56-atlas**](https://github.com/Hashirama1337s/y56-atlas) - The one surface with the most real straight lines, 56, written out completely and exactly.
+  Turn one dial in its equation and 16 of the lines vanish at once: they exist only where 2s<sup>4</sup> = 81. Lean-checked
+  core, every computer transcript, and a 3-D viewer you can spin.
 - [**szilassi-12**](https://github.com/Hashirama1337s/szilassi-12) - Szilassi's polyhedron is a ring of seven hexagons in
   which every face touches every other. We proved that such a ring (without "overarching" faces) always has exactly one
   un-dented face, and that the
@@ -160,6 +164,7 @@ The status words mean the same thing everywhere.
 
 | If you want to... | Start here |
 |---|---|
+| check every line, conic and symmetry of the 56-line surface, or spin it in 3-D | [y56-atlas](https://github.com/Hashirama1337s/y56-atlas) (Python + sympy, one command, about 2 minutes; Lean 4 + Mathlib for the 524 theorems; a browser for the viewer) |
 | re-run a certified stability proof for a dark-matter core | [certified-dark-core](https://github.com/Hashirama1337s/certified-dark-core) (Python + python-flint; the quick checks take minutes, one certified point about 10-30 minutes) |
 | re-run a certified quantum push on a critical collapse | [certified-quantum-ball](https://github.com/Hashirama1337s/certified-quantum-ball) (Python + python-flint; the quick tier takes about 20 minutes, the full replay about 7 hours) |
 | re-run a certified Hawking-radiation calculation | [certified-page-time](https://github.com/Hashirama1337s/certified-page-time) (Python + python-flint; the quick tier takes about a minute, the full replay about 13 minutes) |
@@ -182,6 +187,9 @@ Each repository lists its exact commands and expected outputs, and most carry a 
 - "We found no earlier ..." is a search floor (a dated search of named sources), not a clearance.
 - Records can fall: circle-packing lists every packing others have since beaten or tied.
 - The Wi-Fi cell is a simulation study; the Kinect results are one unit, one operator.
+- y56-atlas credits the surface, its 56-line count, its 32 symmetries and its conic count to their published
+  authors; its own part is the family through Y56. The "no more than 56 lines" bound is not Lean-checked (it rests on
+  computer algebra), the conic count uses one cited lattice number, and a few steps are argued in words.
 - certified-dark-core proves linear (spectral) stability only, along one certified continuous family of states
   (locally unique, not globally); the edges are brackets 0.002 wide, and nonlinear or orbital stability is not claimed.
 - certified-quantum-ball assumes a Hadamard quantum state respecting self-similarity, whose existence is not proved;
@@ -219,6 +227,7 @@ Newest first. Text and data are CC BY 4.0 and code is MIT unless a repository sa
 
 | Project | Door | Archive |
 |---|---|---|
+| [y56-atlas](https://github.com/Hashirama1337s/y56-atlas) | Puzzles and shapes | [doi:10.5281/zenodo.24406738](https://doi.org/10.5281/zenodo.24406738) |
 | [certified-dark-core](https://github.com/Hashirama1337s/certified-dark-core) | Gravity and black holes | [doi:10.5281/zenodo.24359032](https://doi.org/10.5281/zenodo.24359032) |
 | [certified-quantum-ball](https://github.com/Hashirama1337s/certified-quantum-ball) | Gravity and black holes | [doi:10.5281/zenodo.24341256](https://doi.org/10.5281/zenodo.24341256) |
 | [certified-page-time](https://github.com/Hashirama1337s/certified-page-time) | Gravity and black holes | [doi:10.5281/zenodo.24327159](https://doi.org/10.5281/zenodo.24327159) |
