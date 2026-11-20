@@ -37,7 +37,7 @@ FAILED, next to the results that held.
 writes out everything it carries, exactly (all 56 lines, its 188 conics, its 32 symmetries), then turns one dial in
 its equation: 40 lines ride along the whole family, and 16 lines exist only at the single setting where
 2s<sup>4</sup> = 81, which is Y56 itself, because three equations in two unknowns agree only there. 524 theorems are
-checked in Lean, three internal referee rounds re-derived the rest, and an interactive 3-D viewer ships with it.
+checked in Lean, three internal referee rounds re-derived the rest, and an interactive 3-D viewer ships with it: [spin Y56 in your browser](https://hashirama1337s.github.io/y56-atlas/viewer/).
 The surface, its line count and its symmetry count are others' published work, credited; internal AI referees,
 not external peer review.
 [doi:10.5281/zenodo.24406738](https://doi.org/10.5281/zenodo.24406738)
@@ -50,7 +50,7 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
 
 - [**y56-atlas**](https://github.com/Hashirama1337s/y56-atlas) - The one surface with the most real straight lines, 56, written out completely and exactly.
   Turn one dial in its equation and 16 of the lines vanish at once: they exist only where 2s<sup>4</sup> = 81. Lean-checked
-  core, every computer transcript, and a 3-D viewer you can spin.
+  core, every computer transcript, and a [3-D viewer you can spin](https://hashirama1337s.github.io/y56-atlas/viewer/) in your browser.
 - [**szilassi-12**](https://github.com/Hashirama1337s/szilassi-12) - Szilassi's polyhedron is a ring of seven hexagons in
   which every face touches every other. We proved that such a ring (without "overarching" faces) always has exactly one
   un-dented face, and that the
