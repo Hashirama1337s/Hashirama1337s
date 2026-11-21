@@ -4,7 +4,7 @@
 Each project ships its code and data, and says plainly what was and was not shown.**
 
 <p align="center">
-<a href="#user-content-puzzles-and-shapes"><img src="brand/door-puzzles.svg" width="200" height="84" alt="Puzzles and shapes: 3 projects"></a>
+<a href="#user-content-puzzles-and-shapes"><img src="brand/door-puzzles.svg" width="200" height="84" alt="Puzzles and shapes: 4 projects"></a>
 <a href="#user-content-chaos-you-can-prove"><img src="brand/door-chaos.svg" width="200" height="84" alt="Chaos you can prove: 3 projects"></a>
 <a href="#user-content-gravity-and-black-holes"><img src="brand/door-gravity.svg" width="200" height="84" alt="Gravity and black holes: 9 projects"></a>
 <a href="#user-content-numbers-and-ramanujan"><img src="brand/door-numbers.svg" width="200" height="84" alt="Numbers and Ramanujan: 2 projects"></a>
@@ -13,7 +13,7 @@ Each project ships its code and data, and says plainly what was and was not show
 <a href="#user-content-measuring-real-devices"><img src="brand/door-devices.svg" width="200" height="84" alt="Measuring real devices: 2 projects"></a>
 </p>
 
-<p align="center"><sub>Six doors, twenty-one projects. Click a door to jump to its projects.</sub></p>
+<p align="center"><sub>Six doors, twenty-two projects. Click a door to jump to its projects.</sub></p>
 
 Moki & Julio · text and data CC BY 4.0, code MIT, unless a repository says otherwise
 
@@ -32,6 +32,15 @@ FAILED, next to the results that held.
 
 ## Newest
 
+**[conic-records](https://github.com/Hashirama1337s/conic-records)** (November 2026, v1.0). A smooth surface of degree 4 can hold at most 800 conics
+(ellipses, parabolas, hyperbolas lying inside it), and Degtyarev described the record-holders by lattice data alone. In
+1994 Barth and Bauer proved that some of these surfaces exist and wrote that they did not find their equations. This
+release writes down six record surfaces, with 656, 664, 704, 736, 660 and 640 conics. One of them is the real record: all
+656 conics are real curves you could draw. Every conic is written out exactly, and a lattice argument proves no more
+conics hide anywhere. The surfaces' existence and lattice data are Degtyarev's, the families are classical, all credited;
+internal AI referees, not external peer review. [Spin the 656 surface in 3-D](https://hashirama1337s.github.io/y56-atlas/viewer/).
+[doi:10.5281/zenodo.24413371](https://doi.org/10.5281/zenodo.24413371)
+
 **[y56-atlas](https://github.com/Hashirama1337s/y56-atlas)** (November 2026, v1.0). A smooth curved surface of degree 4 can hold at most
  56 real straight lines, and exactly one surface does it: Y56, found by Degtyarev, Itenberg and Sertöz. This atlas
 writes out everything it carries, exactly (all 56 lines, its 188 conics, its 32 symmetries), then turns one dial in
@@ -48,6 +57,8 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
 
 ### Puzzles and shapes
 
+- [**conic-records**](https://github.com/Hashirama1337s/conic-records) - Equations for six record surfaces that a 1994 paper proved exist without writing them down,
+  including the real record: one surface carrying 656 real conics. Every conic exact, every count proved exact.
 - [**y56-atlas**](https://github.com/Hashirama1337s/y56-atlas) - The one surface with the most real straight lines, 56, written out completely and exactly.
   Turn one dial in its equation and 16 of the lines vanish at once: they exist only where 2s<sup>4</sup> = 81. Lean-checked
   core, every computer transcript, and a [3-D viewer you can spin](https://hashirama1337s.github.io/y56-atlas/viewer/) in your browser.
@@ -164,6 +175,7 @@ The status words mean the same thing everywhere.
 
 | If you want to... | Start here |
 |---|---|
+| check the equations and exact conic counts of six record quartic surfaces | [conic-records](https://github.com/Hashirama1337s/conic-records) (PARI/GP for the lattice proofs, seconds each; Singular, msolve and python-flint for the rest) |
 | check every line, conic and symmetry of the 56-line surface, or spin it in 3-D | [y56-atlas](https://github.com/Hashirama1337s/y56-atlas) (Python + sympy, one command, about 2 minutes; Lean 4 + Mathlib for the 524 theorems; a browser for the viewer) |
 | re-run a certified stability proof for a dark-matter core | [certified-dark-core](https://github.com/Hashirama1337s/certified-dark-core) (Python + python-flint; the quick checks take minutes, one certified point about 10-30 minutes) |
 | re-run a certified quantum push on a critical collapse | [certified-quantum-ball](https://github.com/Hashirama1337s/certified-quantum-ball) (Python + python-flint; the quick tier takes about 20 minutes, the full replay about 7 hours) |
@@ -187,6 +199,10 @@ Each repository lists its exact commands and expected outputs, and most carry a 
 - "We found no earlier ..." is a search floor (a dated search of named sources), not a clearance.
 - Records can fall: circle-packing lists every packing others have since beaten or tied.
 - The Wi-Fi cell is a simulation study; the Kinect results are one unit, one operator.
+- conic-records credits the surfaces' existence, lattices, configurations and bounds to Degtyarev and the families to
+  their published authors; its own part is the equations, the exact conics and counts, and the Goursat map. Two
+  identifications (664 by invariants, 656 on a numerical Gram) are not explicit lattice isometries, and the
+  completeness of the eight-curve map is argued.
 - y56-atlas credits the surface, its 56-line count, its 32 symmetries and its conic count to their published
   authors; its own part is the family through Y56. The "no more than 56 lines" bound is not Lean-checked (it rests on
   computer algebra), the conic count uses one cited lattice number, and a few steps are argued in words.
@@ -227,6 +243,7 @@ Newest first. Text and data are CC BY 4.0 and code is MIT unless a repository sa
 
 | Project | Door | Archive |
 |---|---|---|
+| [conic-records](https://github.com/Hashirama1337s/conic-records) | Puzzles and shapes | [doi:10.5281/zenodo.24413371](https://doi.org/10.5281/zenodo.24413371) |
 | [y56-atlas](https://github.com/Hashirama1337s/y56-atlas) | Puzzles and shapes | [doi:10.5281/zenodo.24406738](https://doi.org/10.5281/zenodo.24406738) |
 | [certified-dark-core](https://github.com/Hashirama1337s/certified-dark-core) | Gravity and black holes | [doi:10.5281/zenodo.24359032](https://doi.org/10.5281/zenodo.24359032) |
 | [certified-quantum-ball](https://github.com/Hashirama1337s/certified-quantum-ball) | Gravity and black holes | [doi:10.5281/zenodo.24341256](https://doi.org/10.5281/zenodo.24341256) |
