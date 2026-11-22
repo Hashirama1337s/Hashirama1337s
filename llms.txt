@@ -46,6 +46,10 @@ Status words used below. PROVED: a proof, in most cases computer-assisted and ch
 - [kinect-v1-depth-levels](https://github.com/Hashirama1337s/kinect-v1-depth-levels): One Xbox 360 Kinect MEASURED as an instrument. Between 1 and 4 metres its depth output takes exactly 259 values, all listed by a table PrimeSense published; about 1 % of pixels carry 95 % of the noise. One unit only. DOI: https://doi.org/10.5281/zenodo.22984914
 - [moki-julio-wifi-ris-cell](https://github.com/Hashirama1337s/moki-julio-wifi-ris-cell): SIMULATION only, nothing built or measured. One 15 mm "smart mirror" cell for Wi-Fi whose single on/off setting serves 2.4 GHz and 5.15-7.125 GHz, within a 2 dB loss budget at every simulated angle but one. DOI: https://doi.org/10.5281/zenodo.23165406
 
+## Information and codes
+
+- [certified-trapdoor-channel](https://github.com/Hashirama1337s/certified-trapdoor-channel): Feedforward capacity of Blackwell's trapdoor (chemical) channel. PROVED, computer-assisted: 0.57493196741521 <= C <= 0.574968285761 bits per use (gap 3.632e-5). Floor: Birch-type bound for an explicit run-length automaton input, certified at depth 24 with a proven rounding-error bound (assumes correctly rounded IEEE 754 arithmetic and Gallager's theorem for indecomposable channels, cited not opened). Ceiling: duality bound of arXiv:1911.02113 / 2303.18008 with an order-15 output model, logs enclosed and rounded upward, exact Bellman residuals. Independent checkers reproduce the ceiling to 15 decimals and the floor at depths 11-12. Sealed tests listed with two FAILED and one VOID. Internal AI referees, not external peer review. Nothing about optimality or priority claimed. DOI: https://doi.org/10.5281/zenodo.24443961
+
 ## How to cite and reuse
 
 Each repository has a "How to cite" section and a CITATION.cff. Text and data are CC BY 4.0 and code is MIT unless a repository says otherwise. Byline: Moki & Julio.

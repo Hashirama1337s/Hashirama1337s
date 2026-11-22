@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="84" viewBox="0 0 200 84" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Information and codes: 1 project">
+<title>Information and codes: 1 project</title>
+<defs><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="1" y="1" width="198" height="82" rx="8" fill="#262b31" stroke="#00e5ff" stroke-opacity="0.55"/>
+<rect x="3" y="4" width="5" height="76" rx="2.5" fill="#00e5ff" filter="url(#glow)"/>
+<text x="20" y="30" font-size="13.5" font-weight="600" fill="#e8edf2">Information and codes</text>
+<text x="20" y="70" font-size="11.5" font-weight="600" fill="#00e5ff">1 project</text>
+<text x="186" y="70" font-size="14" font-weight="600" fill="#00e5ff" text-anchor="end">&#8594;</text>
+</svg>

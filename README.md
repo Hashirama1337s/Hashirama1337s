@@ -11,9 +11,10 @@ Each project ships its code and data, and says plainly what was and was not show
 <br>
 <a href="#user-content-quantum-systems-and-their-parts"><img src="brand/door-quantum.svg" width="200" height="84" alt="Quantum systems and their parts: 2 projects"></a>
 <a href="#user-content-measuring-real-devices"><img src="brand/door-devices.svg" width="200" height="84" alt="Measuring real devices: 2 projects"></a>
+<a href="#user-content-information-and-codes"><img src="brand/door-information.svg" width="200" height="84" alt="Information and codes: 1 project"></a>
 </p>
 
-<p align="center"><sub>Six doors, twenty-two projects. Click a door to jump to its projects.</sub></p>
+<p align="center"><sub>Seven doors, twenty-three projects. Click a door to jump to its projects.</sub></p>
 
 Moki & Julio · text and data CC BY 4.0, code MIT, unless a repository says otherwise
 
@@ -31,6 +32,16 @@ exists, and a separate seat computes the answer without seeing the prediction. S
 FAILED, next to the results that held.
 
 ## Newest
+
+**[certified-trapdoor-channel](https://github.com/Hashirama1337s/certified-trapdoor-channel)** (November 2026, v1.0). A box holds one ball; you drop a ball in and one of the
+two falls out at random. How many bits per drop can you get across to someone watching? David Blackwell asked in 1961,
+and the best proven answer we could find in print was "between 0.5 and 0.585". This release proves
+0.5749319 ≤ C ≤ 0.5749683: a gap of 0.0000363, about 2,300 times narrower than that interval. The floor is one
+explicit input recipe whose information rate is computed with every rounding error bounded; the ceiling is a model of
+the falling balls checked with a published duality bound, every case rounded upward. The duality method and the order-k
+shortcut's special case are others' published work, credited; two FAILED sealed tests and one VOID are kept on the
+scorecard; internal AI referees, not external peer review.
+[doi:10.5281/zenodo.24443961](https://doi.org/10.5281/zenodo.24443961)
 
 **[conic-records](https://github.com/Hashirama1337s/conic-records)** (November 2026, v1.0). A smooth surface of degree 4 can hold at most 800 conics
 (ellipses, parabolas, hyperbolas lying inside it), and Degtyarev described the record-holders by lattice data alone. In
@@ -144,6 +155,12 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
   out of a list of energies. Re-run with its authors' own notebook and checked against certified best splits: its first
   qubit scores about twice as badly as the best (+101 %), while its headline "of the order of a percent" holds up (2.88 %).
 
+### Information and codes
+
+- [**certified-trapdoor-channel**](https://github.com/Hashirama1337s/certified-trapdoor-channel) - Drop a ball into a box that holds one, and one of the two falls out at
+  random: how much can you say that way? Blackwell's 1961 question, now pinned to 0.5749319 ≤ C ≤ 0.5749683 bits per
+  drop, both ends certified and re-checked by independent programs; where C sits inside the gap stays open.
+
 ### Measuring real devices
 
 - [**kinect-v1-depth-levels**](https://github.com/Hashirama1337s/kinect-v1-depth-levels) - Our Xbox 360 Kinect cannot
@@ -175,6 +192,7 @@ The status words mean the same thing everywhere.
 
 | If you want to... | Start here |
 |---|---|
+| re-check the certified bounds on Blackwell's trapdoor channel | [certified-trapdoor-channel](https://github.com/Hashirama1337s/certified-trapdoor-channel) (Python with numpy and python-flint; the ceiling in under a second, the full floor in about 25 minutes) |
 | check the equations and exact conic counts of six record quartic surfaces | [conic-records](https://github.com/Hashirama1337s/conic-records) (PARI/GP for the lattice proofs, seconds each; Singular, msolve and python-flint for the rest) |
 | check every line, conic and symmetry of the 56-line surface, or spin it in 3-D | [y56-atlas](https://github.com/Hashirama1337s/y56-atlas) (Python + sympy, one command, about 2 minutes; Lean 4 + Mathlib for the 524 theorems; a browser for the viewer) |
 | re-run a certified stability proof for a dark-matter core | [certified-dark-core](https://github.com/Hashirama1337s/certified-dark-core) (Python + python-flint; the quick checks take minutes, one certified point about 10-30 minutes) |
@@ -243,6 +261,7 @@ Newest first. Text and data are CC BY 4.0 and code is MIT unless a repository sa
 
 | Project | Door | Archive |
 |---|---|---|
+| [certified-trapdoor-channel](https://github.com/Hashirama1337s/certified-trapdoor-channel) | Information and codes | [doi:10.5281/zenodo.24443961](https://doi.org/10.5281/zenodo.24443961) |
 | [conic-records](https://github.com/Hashirama1337s/conic-records) | Puzzles and shapes | [doi:10.5281/zenodo.24413371](https://doi.org/10.5281/zenodo.24413371) |
 | [y56-atlas](https://github.com/Hashirama1337s/y56-atlas) | Puzzles and shapes | [doi:10.5281/zenodo.24406738](https://doi.org/10.5281/zenodo.24406738) |
 | [certified-dark-core](https://github.com/Hashirama1337s/certified-dark-core) | Gravity and black holes | [doi:10.5281/zenodo.24359032](https://doi.org/10.5281/zenodo.24359032) |
