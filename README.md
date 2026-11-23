@@ -11,10 +11,10 @@ Each project ships its code and data, and says plainly what was and was not show
 <br>
 <a href="#user-content-quantum-systems-and-their-parts"><img src="brand/door-quantum.svg" width="200" height="84" alt="Quantum systems and their parts: 2 projects"></a>
 <a href="#user-content-measuring-real-devices"><img src="brand/door-devices.svg" width="200" height="84" alt="Measuring real devices: 2 projects"></a>
-<a href="#user-content-information-and-codes"><img src="brand/door-information.svg" width="200" height="84" alt="Information and codes: 1 project"></a>
+<a href="#user-content-information-and-codes"><img src="brand/door-information.svg" width="200" height="84" alt="Information and codes: 2 projects"></a>
 </p>
 
-<p align="center"><sub>Seven doors, twenty-three projects. Click a door to jump to its projects.</sub></p>
+<p align="center"><sub>Seven doors, twenty-four projects. Click a door to jump to its projects.</sub></p>
 
 Moki & Julio · text and data CC BY 4.0, code MIT, unless a repository says otherwise
 
@@ -32,6 +32,16 @@ exists, and a separate seat computes the answer without seeing the prediction. S
 FAILED, next to the results that held.
 
 ## Newest
+
+**[certified-memory-channels](https://github.com/Hashirama1337s/certified-memory-channels)** (November 2026, v1.0). How many bits per use can you send through a
+channel that remembers your last symbol? For three classic binary channels with memory (the dicode erasure channel,
+and the erasure and flip channels whose inputs may never contain two 1s in a row) nobody knows exactly. This release
+gives proven floors and ceilings at five noise levels each: windows as narrow as 8.1e-13 bits per use, where the
+published proven ranges we compared with are a few ten-thousandths to a few hundredths wide. Every ceiling ships as a
+certificate you can re-check in seconds; an independent second implementation agrees at the three standard points.
+The methods are standard and credited; four FAILED sealed tests and one VOID are kept on the scorecard; internal AI
+referees, not external peer review.
+[doi:10.5281/zenodo.24472620](https://doi.org/10.5281/zenodo.24472620)
 
 **[certified-trapdoor-channel](https://github.com/Hashirama1337s/certified-trapdoor-channel)** (November 2026, v1.0). A box holds one ball; you drop a ball in and one of the
 two falls out at random. How many bits per drop can you get across to someone watching? David Blackwell asked in 1961,
@@ -157,6 +167,9 @@ Pick the door that draws you. Each line is one project's plain hook; the reposit
 
 ### Information and codes
 
+- [**certified-memory-channels**](https://github.com/Hashirama1337s/certified-memory-channels) - Three classic channels that remember your last symbol, each at five
+  noise levels: proven floors and ceilings on how much gets through, some pinned to a trillionth of a bit; where the true
+  value sits inside each window stays open.
 - [**certified-trapdoor-channel**](https://github.com/Hashirama1337s/certified-trapdoor-channel) - Drop a ball into a box that holds one, and one of the two falls out at
   random: how much can you say that way? Blackwell's 1961 question, now pinned to 0.5749319 ≤ C ≤ 0.5749683 bits per
   drop, both ends certified and re-checked by independent programs; where C sits inside the gap stays open.
@@ -192,6 +205,7 @@ The status words mean the same thing everywhere.
 
 | If you want to... | Start here |
 |---|---|
+| re-check the certified capacity windows of three channels with memory | [certified-memory-channels](https://github.com/Hashirama1337s/certified-memory-channels) (Python with numpy, scipy and python-flint; a ceiling certificate in seconds, a floor in about a minute) |
 | re-check the certified bounds on Blackwell's trapdoor channel | [certified-trapdoor-channel](https://github.com/Hashirama1337s/certified-trapdoor-channel) (Python with numpy and python-flint; the ceiling in under a second, the full floor in about 25 minutes) |
 | check the equations and exact conic counts of six record quartic surfaces | [conic-records](https://github.com/Hashirama1337s/conic-records) (PARI/GP for the lattice proofs, seconds each; Singular, msolve and python-flint for the rest) |
 | check every line, conic and symmetry of the 56-line surface, or spin it in 3-D | [y56-atlas](https://github.com/Hashirama1337s/y56-atlas) (Python + sympy, one command, about 2 minutes; Lean 4 + Mathlib for the 524 theorems; a browser for the viewer) |
@@ -261,6 +275,7 @@ Newest first. Text and data are CC BY 4.0 and code is MIT unless a repository sa
 
 | Project | Door | Archive |
 |---|---|---|
+| [certified-memory-channels](https://github.com/Hashirama1337s/certified-memory-channels) | Information and codes | [doi:10.5281/zenodo.24472620](https://doi.org/10.5281/zenodo.24472620) |
 | [certified-trapdoor-channel](https://github.com/Hashirama1337s/certified-trapdoor-channel) | Information and codes | [doi:10.5281/zenodo.24443961](https://doi.org/10.5281/zenodo.24443961) |
 | [conic-records](https://github.com/Hashirama1337s/conic-records) | Puzzles and shapes | [doi:10.5281/zenodo.24413371](https://doi.org/10.5281/zenodo.24413371) |
 | [y56-atlas](https://github.com/Hashirama1337s/y56-atlas) | Puzzles and shapes | [doi:10.5281/zenodo.24406738](https://doi.org/10.5281/zenodo.24406738) |
