@@ -33,13 +33,13 @@ FAILED, next to the results that held.
 
 ## Newest
 
-**[exact-channel-ceilings](https://github.com/Hashirama1337s/exact-channel-ceilings)** (November 2026, v1.0.1). A proven ceiling on how
+**[exact-channel-ceilings](https://github.com/Hashirama1337s/exact-channel-ceilings)** (November 2026, v1.1). A proven ceiling on how
 much a channel with memory can carry is usually a decimal out of an optimiser. For five classic channels (Ising,
 trapdoor, dicode erasure, and the two no-two-ones channels) we show, as a proof draft, that 2 to the minus each such
 ceiling is an exact algebraic number, and we write twenty of them down, from 16a^7 = 27(1-a)^3 to fields of degree 59,
 each with a certificate a small separate program replays in seconds. Also: a certified window for the Ising channel,
 0.544311 to 0.544571 bits per use; the one place where a longer memory buys exactly nothing (Ising, order 4 equals
-order 3); and a closed form for a published ceiling curve. Seven sealed tests are listed with their verdicts, two
+order 3); a closed form for a published ceiling curve; and, new in v1.1, a rule that predicts the degree of each exact ceiling (it called a degree of 80 before the cell was solved) and a proved degree formula for the dicode channel at every rational erasure rate. Seven sealed tests are listed with their verdicts, two
 FAILED and two VOID kept; internal AI referees, not external peer review.
 [doi:10.5281/zenodo.24619820](https://doi.org/10.5281/zenodo.24619820)
 
