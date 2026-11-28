@@ -33,7 +33,7 @@ FAILED, next to the results that held.
 
 ## Newest
 
-**[exact-channel-ceilings](https://github.com/Hashirama1337s/exact-channel-ceilings)** (November 2026, v1.0). A proven ceiling on how
+**[exact-channel-ceilings](https://github.com/Hashirama1337s/exact-channel-ceilings)** (November 2026, v1.0.1). A proven ceiling on how
 much a channel with memory can carry is usually a decimal out of an optimiser. For five classic channels (Ising,
 trapdoor, dicode erasure, and the two no-two-ones channels) we show, as a proof draft, that 2 to the minus each such
 ceiling is an exact algebraic number, and we write twenty of them down, from 16a^7 = 27(1-a)^3 to fields of degree 59,
